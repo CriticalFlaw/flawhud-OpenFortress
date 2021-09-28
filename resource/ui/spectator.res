@@ -88,7 +88,6 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"SwitchCamModeKeyLabel"
 		"xpos"			"9999"
-
 	}
 	"SwitchCamModeLabel"
 	{

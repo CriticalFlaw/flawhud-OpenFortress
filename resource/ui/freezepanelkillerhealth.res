@@ -2,7 +2,7 @@
 {
 	"PlayerStatusHealthImage"
 	{
-		"ControlName"	"CTFImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
 		"wide"			"0"
 		"tall"			"0"
@@ -12,7 +12,7 @@
 
 	"PlayerStatusHealthImageBG"
 	{
-		"ControlName"	"CTFImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
 		"wide"			"0"
 		"tall"			"0"
@@ -22,7 +22,7 @@
 
 	"PlayerStatusHealthBonusImage"
 	{
-		"ControlName"	"CTFImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
 		"wide"			"0"
 		"tall"			"0"

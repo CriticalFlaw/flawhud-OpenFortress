@@ -1,59 +1,59 @@
 "Resource/UI/MainMenuOverride.res"
 {
-	"cpiconbluunlock"
+	"CPIconBlu"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconbluunlock"
+		"fieldName"		"CPIconBlu"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_blu"
 	}
 
-	"cpiconblulock"
+	"CPIconBluLocked"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconblulock"
+		"fieldName"		"CPIconBluLocked"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_blu_locked"
 	}
-
-	"cpiconredunlock"
+	
+	"CPIconRed"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconredunlock"
+		"fieldName"		"CPIconRed"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_red"
 	}
 
-	"cpiconredlock"
+	"CPIconRedLocked"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconredlock"
+		"fieldName"		"CPIconRedLocked"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_red_locked"
 	}
 
-	"cpiconneutralunlock"
+	"CPIconNeutral"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconneutralunlock"
+		"fieldName"		"CPIconNeutral"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_neutral"
 	}
 
-	"cpiconneutrallock"
+	"CPIconNeutralLocked"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconneutrallock"
+		"fieldName"		"CPIconNeutralLocked"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"

@@ -6,11 +6,12 @@
 		"fieldName" 			"HudChat"
 		"visible" 				"1"
 		"enabled" 				"1"
-		"xpos"					"1"
+		"xpos"					"5"
 		"ypos"					"25"
 		"wide"					"210"
 		"tall"					"100"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"		"0"
+		"bgcolor_override"			"0 0 0 255"
 	}
 
 	ChatInputLine
@@ -31,7 +32,7 @@
 		"ControlName"			"Button"
 		"fieldName"				"ChatFiltersButton"
 		"xpos"					"173"
-		"ypos"					"87"
+		"ypos"					"86"
 		"wide"					"33"
 		"tall"					"8"
 		"autoResize"			"1"

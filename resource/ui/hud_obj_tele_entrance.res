@@ -28,7 +28,7 @@
 	"Icon_Teleport_Entrance"
 	{
 		"ControlName"	"CIconPanel"
-		"fieldName"		"Icon"
+		"fieldName"		"Icon_Teleport_Entrance"
 		"xpos"			"21"
 		"ypos"			"1"
 		"wide"			"28"
@@ -63,7 +63,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"labelText"		"#Building_hud_tele_enter_not_built_360"
+			"labelText"		"#Building_hud_tele_enter_not_built"
 			"textAlignment"	"Left"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -138,7 +138,7 @@
 			"tall"			"31"
 			"visible"		"1"
 			"enabled"		"1"
-			"icon"			"obj_status_alert_background"
+			"icon"			"obj_status_alert_background_tall"
 		}
 
 		"WrenchIcon"
@@ -260,9 +260,9 @@
 				"tall"			"10"
 				"visible"		"1"
 				"enabled"		"1"
+				"scaleImage"	"1"
 				"image"			"../hud/hud_obj_status_teleport_64"
 				"drawcolor"		"ProgressOffWhite"
-				"scaleImage"	"1"
 			}
 
 			"ChargingPanel"

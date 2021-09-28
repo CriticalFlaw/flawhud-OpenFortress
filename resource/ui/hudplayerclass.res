@@ -1,6 +1,6 @@
 "Resource/UI/HudPlayerClass.res"
 {
-	// player class data
+	// Player Class Data
 	"HudPlayerClass"
 	{
 		"ControlName"	"EditablePanel"
@@ -13,9 +13,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
+	
 	"PlayerStatusClassImage"
 	{
-		"ControlName"	"CTFImagePanel"
+		"ControlName"	"CTFClassImage"
 		"fieldName"		"PlayerStatusClassImage"
 		"xpos"			"25"
 		"ypos"			"r75"

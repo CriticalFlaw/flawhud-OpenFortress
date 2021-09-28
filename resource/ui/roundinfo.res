@@ -45,8 +45,6 @@
 		"enabled"		"1"
 		"labelText"		"#round_info_header"
 		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"font"			"ChalkboardTitle"
 		"fgcolor"		"white"
 	}
@@ -66,8 +64,6 @@
 		"enabled"		"1"
 		"labelText"		"%mapname%"
 		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"font"			"ChalkboardTitle"
 		"fgcolor"		"white"
 	}

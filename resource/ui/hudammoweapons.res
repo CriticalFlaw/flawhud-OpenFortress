@@ -5,6 +5,8 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"HudWeaponAmmoBG"
 		"xpos"				"9999"
+		"visible"			"0"
+		"enabled"			"0"
 	}
 
 	"AmmoBG"
@@ -27,6 +29,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"AmmoInClip"
 		"font"				"FontBold50"
+		"fgcolor"			"HudWhite"
 		"xpos"				"0"
 		"ypos"				"31"
 		"zpos"				"5"
@@ -36,7 +39,6 @@
 		"enabled"			"1"
 		"textAlignment"		"east"
 		"labelText"			"%Ammo%"
-		"fgcolor"			"HudWhite"
 	}
 	"AmmoInClipShadow"
 	{
@@ -53,10 +55,7 @@
 		"enabled"			"1"
 		"textAlignment"		"east"
 		"labelText"			"%Ammo%"
-
-		"pin_to_sibling"		"AmmoInClip"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+		"pin_to_sibling"	"AmmoInClip"
 	}
 
 	"AmmoInReserve"
@@ -64,6 +63,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"AmmoInReserve"
 		"font"				"FontBold22"
+		"fgcolor"			"HudWhite"
 		"xpos"				"75"
 		"ypos"				"38"
 		"zpos"				"7"
@@ -73,7 +73,6 @@
 		"enabled"			"1"
 		"textAlignment"		"west"
 		"labelText"			"%AmmoInReserve%"
-		"fgcolor"			"HudWhite"
 	}
 	"AmmoInReserveShadow"
 	{
@@ -90,10 +89,7 @@
 		"enabled"			"1"
 		"textAlignment"		"west"
 		"labelText"			"%AmmoInReserve%"
-
-		"pin_to_sibling"		"AmmoInReserve"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+		"pin_to_sibling"	"AmmoInReserve"
 	}
 
 	"AmmoNoClip"
@@ -127,9 +123,6 @@
 		"enabled"			"1"
 		"textAlignment"		"center"
 		"labelText"			"%Ammo%"
-
-		"pin_to_sibling"		"AmmoNoClip"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+		"pin_to_sibling"	"AmmoNoClip"
 	}
 }

@@ -17,6 +17,7 @@
 		"wide"			"0"
 		"tall"			"0"
 	}
+	
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"

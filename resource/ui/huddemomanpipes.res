@@ -86,10 +86,7 @@
 			"brighttext"	"0"
 			"font"			"FontBold22"
 			"fgcolor"		"ShadowBlack"
-
-			"pin_to_sibling"		"NumPipesLabel"
-			"pin_corner_to_sibling" "PIN_TOPLEFT"
-			"pin_to_sibling_corner" "PIN_TOPLEFT"
+			"pin_to_sibling"	"NumPipesLabel"
 		}
 	}
 

@@ -6,7 +6,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"FlawHUDIcons"
+				"name"			"TF2Icons"
 				"tall"			"15"
 				"weight"		"400"
 				"additive"		"0"
@@ -18,9 +18,31 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"FlawHUDIcons"
+				"name"			"TF2Icons"
 				"tall"			"62"
 				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		
+		"LargeIcons"
+		{
+			"1"
+			{
+				"name"			"TF2Icons"
+				"tall"			"62"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		
+		"MenuIcons"
+		{
+			"1"
+			{
+				"name"			"TF2Icons"
+				"tall"			"16"
 				"additive"		"0"
 				"antialias"		"1"
 			}
@@ -30,8 +52,19 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"FlawHUDIcons"
+				"name"			"TF2Icons"
 				"tall"			"18"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		
+		"NormalIcons"
+		{
+			"1"
+			{
+				"name"			"TF2Icons"
+				"tall"			"20"
 				"additive"		"0"
 				"antialias"		"1"
 			}
@@ -42,8 +75,8 @@ Scheme
 	{
 		"121"
 		{
-			"font"	"resource/fonts/Icons.otf"
-			"name"	"FlawHUDIcons"
+			"font"	"resource/fonts/TF2Icons.ttf"
+			"name"	"TF2Icons"
 		}
 	}
 }

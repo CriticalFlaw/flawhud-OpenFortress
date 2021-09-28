@@ -1,5 +1,8 @@
 Scheme
 {
+	///////////////////// BASE SETTINGS ////////////////////////
+	// default settings for all panels
+	// controls use these to determine their settings
 	BaseSettings
 	{
 		// vgui_controls color specifications
@@ -19,10 +22,10 @@ Scheme
 		ComboBoxButton.BgColor					"TransparentBlack"
 		ComboBoxButton.DisabledBgColor			"Blank"
 
-		Frame.BgColor							"TransparentBlack"	//"DarkGray"
-		Frame.OutOfFocusBgColor					"TransparentBlack"	//"TransparentGray"
-		Frame.FocusTransitionEffectTime			"0.15"
-		Frame.TransitionEffectTime				"0.15"
+		Frame.BgColor							"TransparentBlack"
+		Frame.OutOfFocusBgColor					"TransparentBlack"
+		Frame.FocusTransitionEffectTime			"0.0"
+		Frame.TransitionEffectTime				"0.0"
 		Frame.AutoSnapRange						"0"
 		FrameGrip.Color1						"Blank"
 		FrameGrip.Color2						"Blank"
@@ -50,12 +53,12 @@ Scheme
 		Label.DisabledFgColor1					"Blank"
 		Label.DisabledFgColor2					"LightOrange"
 
-		ListPanel.TextColor						"Purple" // was orange
+		ListPanel.TextColor						"Purple"
 		ListPanel.BgColor						"TransparentBlack"
 		ListPanel.SelectedTextColor				"Black"
 		ListPanel.SelectedBgColor				"Red"
 		ListPanel.SelectedOutOfFocusBgColor		"Red"
-		ListPanel.EmptyListInfoTextColor		"Purple" // was orange
+		ListPanel.EmptyListInfoTextColor		"Purple"
 
 		Menu.TextColor							"TanLight"
 		Menu.BgColor							"TransparentBlack"
@@ -87,10 +90,10 @@ Scheme
 		RadioButton.TextColor					"Purple"
 		RadioButton.SelectedTextColor			"Purple"
 
-		RichText.TextColor						"Gray"	//"TFWhite"
-		RichText.BgColor						"Blank"	//"TransparentGray"
-		RichText.SelectedTextColor				"Gray"	//"TFWhite"
-		RichText.SelectedBgColor				"Red"	//"Purple"
+		RichText.TextColor						"Gray"
+		RichText.BgColor						"Blank"
+		RichText.SelectedTextColor				"Gray"
+		RichText.SelectedBgColor				"Red"
 
 		Slider.NobColor							"108 108 108 255"
 		Slider.TextColor						"127 140 127 255"
@@ -104,14 +107,14 @@ Scheme
 		TextEntry.DisabledTextColor				"Gray"
 		TextEntry.DisabledBgColor				"Blank"
 		TextEntry.SelectedTextColor				"TanLight"
-		TextEntry.SelectedBgColor				"Blank"	//"TFWhite"
-		TextEntry.OutOfFocusSelectedBgColor		"Blank"	//"TransparentTFWhite"
+		TextEntry.SelectedBgColor				"Blank"
+		TextEntry.OutOfFocusSelectedBgColor		"Blank"
 		TextEntry.FocusEdgeColor				"Blank"
 
 		ToggleButton.SelectedTextColor			"Purple"
 
-		Tooltip.TextColor						"TransparentBlack"	//"TFWhite"
-		Tooltip.BgColor							"Red"				//"DarkGray"
+		Tooltip.TextColor						"TransparentBlack"
+		Tooltip.BgColor							"Red"
 
 		TreeView.BgColor						"TransparentBlack"
 
@@ -133,7 +136,7 @@ Scheme
 		HudCaptureProgressBar.Active			"HudProgressBarActive"
 		HudCaptureProgressBar.InActive			"HudProgressBarInActive"
 
-		// scheme-specific colors
+		// Scheme-Specific Colors
 		"FgColor"								"Purple"
 		"BgColor"								"TransparentBlack"
 
@@ -149,9 +152,9 @@ Scheme
 		// CHudMenu
 		"ItemColor"								"255 167 42 200"	// default 255 167 42 255
 		"MenuColor"								"233 208 173 255"
-		"MenuBoxBg"								"0 0 0 100"
+		"MenuBoxBg"								"HudBlack"
 
-		// weapon selection colors
+		// Weapon Selection Colors
 		"SelectionNumberFg"						"251 235 202 255"
 		"SelectionNumberBg"						"46 43 42 255"
 		"SelectionTextFg"						"251 235 202 255"

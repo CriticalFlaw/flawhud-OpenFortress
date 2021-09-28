@@ -127,6 +127,7 @@
 			"fieldName"			"TargetAvatarImage"
 			"xpos"				"10"
 			"ypos"				"23"
+			"zpos"				"100"
 			"wide"				"16"
 			"tall"				"16"
 			"visible"			"0"
@@ -136,6 +137,7 @@
 			"color_outline"		"52 48 45 255"
 		}
 
+		// divider
 		"Divider"
 		{
 			"ControlName"		"ImagePanel"
@@ -347,6 +349,7 @@
 			"visible"			"0"
 		}
 
+		// divider
 		"Divider2"
 		{
 			"ControlName"		"ImagePanel"

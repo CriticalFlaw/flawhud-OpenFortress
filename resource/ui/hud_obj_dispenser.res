@@ -28,7 +28,7 @@
 	"Icon_Dispenser"
 	{
 		"ControlName"	"CIconPanel"
-		"fieldName"		"Icon"
+		"fieldName"		"Icon_Dispenser"
 		"xpos"			"21"
 		"ypos"			"1"
 		"wide"			"28"
@@ -138,7 +138,7 @@
 			"tall"			"31"
 			"visible"		"1"
 			"enabled"		"1"
-			"icon"			"obj_status_alert_background"
+			"icon"			"obj_status_alert_background_tall"
 		}
 
 		"WrenchIcon"

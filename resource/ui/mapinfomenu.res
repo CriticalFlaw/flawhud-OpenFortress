@@ -100,7 +100,7 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"CONTINUE (&E)"
+		"labelText"		"#TF_Continue"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -131,7 +131,7 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"BACK (&Q)"
+		"labelText"		"#TF_Back"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -143,7 +143,7 @@
 
 	"MenuBG"
 	{
-		"ControlName"	"CModelPanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"MenuBG"
 		"xpos"			"9999"
 	}

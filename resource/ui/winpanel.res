@@ -15,14 +15,6 @@
 			"ControlName"		"EditablePanel"
 			"fieldName"			"BlueScoreBG"
 			"xpos"				"9999"
-			"ypos"				"9999"
-			"wide"				"135"
-			"tall"				"40"
-			"autoResize"		"0"
-			"pinCorner"			"0"
-			"visible"			"0"
-			"enabled"			"1"
-			"border"			"TFFatLineBorderBlueBGMoreOpaque"
 		}
 
 		"RedScoreBG"
@@ -30,14 +22,6 @@
 			"ControlName"		"EditablePanel"
 			"fieldName"			"RedScoreBG"
 			"xpos"				"9999"
-			"ypos"				"9999"
-			"wide"				"135"
-			"tall"				"40"
-			"autoResize"		"0"
-			"pinCorner"			"0"
-			"visible"			"0"
-			"enabled"			"1"
-			"border"			"TFFatLineBorderRedBGMoreOpaque"
 		}
 
 		"BLUBG"
@@ -49,8 +33,6 @@
 			"zpos"				"-1"
 			"wide"				"100"
 			"tall"				"21"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 			"fillcolor"			"Blue"
@@ -65,8 +47,6 @@
 			"zpos"				"-2"
 			"wide"				"100"
 			"tall"				"22"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 			"fillcolor"			"DarkBlue"
@@ -81,8 +61,6 @@
 			"zpos"				"-1"
 			"wide"				"100"
 			"tall"				"21"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 			"fillcolor"			"Red"
@@ -97,8 +75,6 @@
 			"zpos"				"-2"
 			"wide"				"100"
 			"tall"				"22"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 			"fillcolor"			"DarkRed"
@@ -138,10 +114,7 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
-
-			"pin_to_sibling"		"BlueTeamLabel"
-			"pin_corner_to_sibling"	"PIN_TOPLEFT"
-			"pin_to_sibling_corner"	"PIN_TOPLEFT"
+			"pin_to_sibling"	"BlueTeamLabel"
 		}
 
 		"BlueTeamScore"
@@ -161,10 +134,10 @@
 			"visible"			"1"
 			"enabled"			"1"
 		}
-		"BlueTeamScoreDropshadow"
+		"BlueTeamScoreShadow"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"			"BlueTeamScoreDropshadow"
+			"fieldName"			"BlueTeamScoreShadow"
 			"font"				"FontBold37"
 			"fgcolor"			"ShadowBlack"
 			"labelText"			"%blueteamscore%"
@@ -178,10 +151,7 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
-
-			"pin_to_sibling"		"BlueTeamScore"
-			"pin_corner_to_sibling"	"PIN_TOPLEFT"
-			"pin_to_sibling_corner"	"PIN_TOPLEFT"
+			"pin_to_sibling"	"BlueTeamScore"
 		}
 
 		"RedTeamLabel"
@@ -201,7 +171,6 @@
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"RedTeamLabelShadow"
 		{
 			"ControlName"		"CExLabel"
@@ -219,10 +188,7 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
-
-			"pin_to_sibling"		"RedTeamLabel"
-			"pin_corner_to_sibling"	"PIN_TOPLEFT"
-			"pin_to_sibling_corner"	"PIN_TOPLEFT"
+			"pin_to_sibling"	"RedTeamLabel"
 		}
 
 		"RedTeamScore"
@@ -242,10 +208,10 @@
 			"visible"			"1"
 			"enabled"			"1"
 		}
-		"RedTeamScoreDropshadow"
+		"RedTeamScoreShadow"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"			"RedTeamScoreDropshadow"
+			"fieldName"			"RedTeamScoreShadow"
 			"font"				"FontBold37"
 			"fgcolor"			"ShadowBlack"
 			"labelText"			"%redteamscore%"
@@ -259,10 +225,7 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
-
-			"pin_to_sibling"		"RedTeamScore"
-			"pin_corner_to_sibling"	"PIN_TOPLEFT"
-			"pin_to_sibling_corner"	"PIN_TOPLEFT"
+			"pin_to_sibling"	"RedTeamScore"
 		}
 
 	}
@@ -432,14 +395,12 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TopPlayerLabel"
-		"font"			"ScoreboardVerySmall"
 		"xpos"			"9999"
 	}
 	"PointsThisRoundLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PointsThisRoundLabel"
-		"font"			"ScoreboardVerySmall"
 		"xpos"			"9999"
 	}
 	"HorizontalLine"
@@ -517,7 +478,6 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-
 	"Player2Avatar"
 	{
 		"ControlName"	"CAvatarImagePanel"
@@ -587,7 +547,6 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-
 	"Player3Avatar"
 	{
 		"ControlName"	"CAvatarImagePanel"

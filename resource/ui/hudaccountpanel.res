@@ -15,18 +15,9 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"AccountBG"
-		"xpos"				"5"
-		"ypos"				"103"
-		"zpos"				"0"
-		"wide"				"84"
-		"tall"				"42"
+		"xpos"				"9999"
 		"visible"			"0"
 		"enabled"			"0"
-		"image"				"../hud/misc_ammo_area_blue"
-		"scaleImage"		"1"
-		"teambg_2"			"../hud/misc_ammo_area_red"
-		"teambg_3"			"../hud/misc_ammo_area_blue"
-		"teambg_4"			"../hud/misc_ammo_area_purple"
 	}
 
 	"MetalIcon"
@@ -59,10 +50,7 @@
 		"scaleImage"		"1"
 		"icon"				"ico_metal"
 		"iconColor"			"ShadowBlack"
-
-		"pin_to_sibling"		"MetalIcon"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
+		"pin_to_sibling"	"MetalIcon"
 	}
 
 	"AccountValue"
@@ -106,9 +94,6 @@
 		"brighttext"		"0"
 		"font"				"FontBold22"
 		"fgcolor"			"ShadowBlack"
-
-		"pin_to_sibling"		"AccountValue"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
+		"pin_to_sibling"	"AccountValue"
 	}
 }
