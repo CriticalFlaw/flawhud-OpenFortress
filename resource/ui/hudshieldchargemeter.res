@@ -1,0 +1,93 @@
+"Resource/UI/HudShieldChargeMeter.res"
+{
+	HudShieldChargeMeter
+	{
+		"fieldName"			"HudShieldChargeMeter"
+		"visible"			"1"
+		"enabled"			"1"
+		"xpos"				"c-74"
+		"ypos"				"c150"
+		"wide"				"150"
+		"tall"				"8"
+		"MeterFG"			"White"
+		"MeterBG"			"Gray"
+	}
+	
+	"ItemEffectMeterBG"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"ItemEffectMeterBG"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"1"
+		"wide"				"90"
+		"tall"				"45"
+		"visible"			"0"
+		"enabled"			"0"
+		"image"				"../hud/ammo_blue_bg"
+		"scaleImage"		"1"
+		"teambg_2"			"../hud/ammo_red_bg"
+		"teambg_3"			"../hud/ammo_blue_bg"
+		"teambg_4"			"../hud/ammo_custom_bg"
+	}
+	
+	"ItemEffectMeterLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"ItemEffectMeterLabel"
+		"xpos"				"115"
+		"ypos"				"0"
+		"zpos"				"2"
+		"wide"				"40"
+		"tall"				"8"
+		"autoResize"		"1"
+		"pinCorner"			"2"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"labelText"			"Charge"
+		"textAlignment"		"west"
+		"dulltext"			"0"
+		"brighttext"		"0"
+		"font"				"FontRegular8"
+	}
+	
+	"ItemEffectMeter"
+	{
+		"ControlName"		"ContinuousProgressBar"
+		"fieldName"			"ItemEffectMeter"
+		"font"				"Default"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"2"
+		"wide"				"110"
+		"tall"				"8"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"textAlignment"		"Center"
+		"dulltext"			"0"
+		"brighttext"		"0"
+	}
+	
+	"ItemEffectMeterCount"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"ItemEffectMeterCount"
+		"xpos"				"25"
+		"ypos"				"5"
+		"zpos"				"2"
+		"wide"				"40"
+		"tall"				"20"
+		"pinCorner"			"2"
+		"visible"			"0"
+		"enabled"			"0"
+		"tabPosition"		"0"
+		"labelText"			"%progresscount%"
+		"textAlignment"		"north"
+		"dulltext"			"0"
+		"brighttext"		"0"
+		"font"				"HudFontMedium"
+	}
+}
