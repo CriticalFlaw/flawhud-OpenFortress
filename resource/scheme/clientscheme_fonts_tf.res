@@ -161,7 +161,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"FontRegular24"
 		{
 			"1"
@@ -526,7 +526,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
+
 		CenterPrintText
 		{
 			"1"
@@ -538,7 +538,7 @@ Scheme
 				"additive"		"1"
 			}
 		}
-		
+
 		HudHintText
 		{
 			"1"
@@ -817,7 +817,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		
+
 		"MainMenuFont"
 		{
 			"1"
@@ -840,7 +840,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		
+
 		GameUIButtons
 		{
 			"1"	//[$WIN32]
@@ -882,7 +882,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"HudClassHealth"
 		{
 			"1"
@@ -894,7 +894,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"SpectatorKeyHints"
 		{
 			"1"
@@ -906,7 +906,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"ClockSubText"
 		{
 			"1"
@@ -940,7 +940,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"HudSelectionText"
 		{
 			"1"
@@ -991,7 +991,7 @@ Scheme
 				"range"			"0x0000 0x017F"
 			}
 		}
-		
+
 		DebugOverlay
 		{
 			"1"	[$WIN32]
@@ -1003,7 +1003,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
+
 		TFTypeDeath
 		{
 			"1"
@@ -1015,7 +1015,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		Icons
 		{
 			"1"
@@ -1027,7 +1027,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"BetaFont"
 		{
 			"1"
@@ -1040,7 +1040,7 @@ Scheme
 				"additive"		"0"
 			}
 		}
-		
+
 		HudNumbers
 		{
 			"1"
@@ -1060,7 +1060,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"CloseCaption_Normal"
 		{
 			"1"
@@ -1118,7 +1118,7 @@ Scheme
 				"range"			"0x0000 0x017F"
 			}
 		}
-		
+
 		"Marlett"
 		{
 			"1"
@@ -1130,7 +1130,7 @@ Scheme
 				"range"			"0x0000 0x007F"
 			}
 		}
-		
+
 		"MenuMainTitle"
 		{
 			"1"
@@ -1191,7 +1191,7 @@ Scheme
 				"weight"		"500"
 			}
 		}
-		
+
 		"ScoreboardVerySmall"
 		{
 			"1"
@@ -1310,7 +1310,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"TargetID"
 		{
 			"1"
@@ -1359,7 +1359,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
+
 		"ChatFont"
 		{
 			"1"
@@ -1408,7 +1408,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
+
 		MenuSmallestFont
 		{
 			"1"
@@ -1431,7 +1431,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
+
 		CapPlayerFont
 		{
 			"1"
@@ -1444,7 +1444,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		TFFontSmall
 		{
 			"1"
@@ -1455,7 +1455,7 @@ Scheme
 				"additive"		"1"
 				"antialias" 	"1"
 			}
-		}		
+		}
 		TFFontMedium
 		{
 			"1"
@@ -1567,7 +1567,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
+
 		RankingDialogHeaders
 		{
 			"1"
@@ -1578,7 +1578,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
+
 		"TeamMenuBold"
 		{
 			"1"
@@ -1601,7 +1601,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"IntroMenuCaption"
 		{
 			"1"
@@ -1613,7 +1613,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"AchievementNotification"
 		{
 			"1"
@@ -1625,13 +1625,13 @@ Scheme
 			}
 		}
 	}
-	
+
 	BitmapFontFiles
 	{
 		// UI buttons, custom font, (256x64)
 		"Buttons"		"materials/vgui/fonts/buttons_32.vbf"
 	}
-	
+
 	CustomFontFiles
 	{
 		"1" "resource/tf.ttf"

@@ -14,7 +14,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
-	
+
 	"SysMenu"
 	{
 		"ControlName"	"Menu"
@@ -29,7 +29,7 @@
 		"enabled"		"0"
 		"tabPosition"	"0"
 	}
-	
+
 	"MapInfo"
 	{
 		"ControlName"	"HTML"
@@ -44,7 +44,7 @@
 		"enabled"		"0"
 		"tabPosition"	"0"
 	}
-	
+
 	"mapname"
 	{
 		"ControlName"	"Label"
@@ -59,7 +59,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"BlueTeamBG"
 	{
 		"ControlName"	"EditablePanel"
@@ -85,9 +85,9 @@
 			"enabled"		"1"
 			"bgcolor_override"	"DarkBlue"
 			"proportionaltoparent"	"1"
-		}	
+		}
 	}
-	
+
 	"RedTeamBG"
 	{
 		"ControlName"	"EditablePanel"
@@ -115,7 +115,7 @@
 			"proportionaltoparent"	"1"
 		}
 	}
-	
+
 	"teambutton2"
 	{
 		"ControlName"	"CTFTeamButton"
@@ -137,13 +137,13 @@
 		"paintborder"	"0"
 		"command"		"jointeam mercenary"
 		"font"			"FontBold18"
-		
+
 		"defaultFgColor_override" 	"255 255 255 128"
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override" "255 255 255 128"
 		"selectedFgColor_override" 	"White"
 	}
-	
+
 	"teambutton3"
 	{
 		"ControlName"	"CTFTeamButton"
@@ -165,34 +165,34 @@
 		"paintborder"	"0"
 		"command"		"jointeam spectate"
 		"font"			"FontBold18"
-		
+
 		"defaultFgColor_override" 	"255 255 255 128"
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override" "255 255 255 128"
 		"selectedFgColor_override" 	"White"
 	}
-	
+
 	"CancelButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
 		"wide"			"0"
 	}
-	
+
 	"TeamMenuAuto"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuAuto"
 		"xpos"			"9999"
 	}
-	
+
 	"TeamMenuSpectate"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuSpectate"
 		"xpos"			"9999"
 	}
-	
+
 	"MenuBG"
 	{
 		"ControlName"	"CModelPanel"
@@ -207,7 +207,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"fov"			"20"
-		
+
 		"model"
 		{
 			"modelname"	"models/vgui/ui_arena01.mdl"
@@ -220,7 +220,7 @@
 			"origin_z" "-34"
 		}
 	}
-	
+
 	"ShadedBar"
 	{
 		"ControlName"	"ImagePanel"
@@ -234,18 +234,18 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"tabPosition"	"0"	
+		"tabPosition"	"0"
 		"fillcolor"		"0 0 0 180"
 		"PaintBackgroundType"	"0"
 	}
-	
+
 	"autodoor"
 	{
 		"ControlName"	"CModelPanel"
 		"fieldName"		"autodoor"
 		"xpos"			"9999"
 	}
-	
+
 	"spectate"
 	{
 		"ControlName"	"CModelPanel"

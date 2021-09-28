@@ -26,7 +26,7 @@
 		"activeimage"		"class_sel_sm_random_blu"
 		"inactiveimage"		"class_sel_sm_random_inactive"
 	}
-	
+
 	"civilian_blue"
 	{
 		"ControlName"		"ImageButton"
@@ -51,7 +51,7 @@
 		"activeimage"		"class_sel_sm_civilian_mercenary"
 		"inactiveimage"		"class_sel_sm_civilian_inactive"
 	}
-	
+
 	"mercenary_blue"
 	{
 		"ControlName"		"ImageButton"
@@ -76,7 +76,7 @@
 		"activeimage"		"class_sel_sm_mercenary_blu"
 		"inactiveimage"		"class_sel_sm_mercenary_inactive"
 	}
-	
+
 	"Offense"
 	{
 		"xpos"			"c-300"
@@ -165,7 +165,7 @@
 		"activeimage"		"class_sel_sm_pyro_blu"
 		"inactiveimage"		"class_sel_sm_pyro_inactive"
 	}
-	
+
 	"Defense"
 	{
 		"xpos"			"c-110"
@@ -254,7 +254,7 @@
 		"activeimage"		"class_sel_sm_engineer_blu"
 		"inactiveimage"		"class_sel_sm_engineer_inactive"
 	}
-	
+
 	"Support"
 	{
 		"xpos"			"c76"

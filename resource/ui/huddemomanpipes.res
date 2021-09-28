@@ -17,7 +17,7 @@
 		"teambg_3"			"../hud/misc_ammo_area_blue"
 		"teambg_4"			"../hud/misc_ammo_area_purple"
 	}
-	
+
 	"PipesPresentPanel"
 	{
 		"ControlName"		"EditablePanel"
@@ -28,7 +28,7 @@
 		"wide"				"100"
 		"tall"				"50"
 		"visible"			"1"
-		
+
 		"PipeIcon"
 		{
 			"ControlName"	"CTFImagePanel"
@@ -45,7 +45,7 @@
 			"teambg_3"		"../hud/ico_stickybomb_blue"
 			"teambg_4"		"../hud/ico_stickybomb_purple"
 		}
-		
+
 		"NumPipesLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -86,13 +86,13 @@
 			"brighttext"	"0"
 			"font"			"FontBold22"
 			"fgcolor"		"ShadowBlack"
-			
+
 			"pin_to_sibling"		"NumPipesLabel"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_TOPLEFT"
 		}
 	}
-	
+
 	"NoPipesPresentPanel"
 	{
 		"ControlName"		"EditablePanel"
@@ -103,7 +103,7 @@
 		"wide"				"100"
 		"tall"				"50"
 		"visible"			"1"
-		
+
 		"PipeIcon"
 		{
 			"ControlName"	"CTFImagePanel"
@@ -117,10 +117,10 @@
 			"image"			"../hud/ico_stickybomb_red_faded"
 			"scaleImage"	"1"
 			"teambg_2"		"../hud/ico_stickybomb_red_faded"
-			"teambg_3"		"../hud/ico_stickybomb_blue_faded"	
-			"teambg_4"		"../hud/ico_stickybomb_purple_faded"	
+			"teambg_3"		"../hud/ico_stickybomb_blue_faded"
+			"teambg_4"		"../hud/ico_stickybomb_purple_faded"
 		}
-		
+
 		"NumPipesLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -161,7 +161,7 @@
 			"brighttext"	"0"
 			"font"			"FontBold22"
 			"fgcolor"		"ShadowBlack"
-			
+
 			"pin_to_sibling"		"NumPipesLabel"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_TOPLEFT"

@@ -12,12 +12,12 @@
 		"visible"			"0"
 		"enabled"			"0"
 		"image"				"../hud/misc_ammo_area_blue"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 		"teambg_2"			"../hud/misc_ammo_area_red"
 		"teambg_3"			"../hud/misc_ammo_area_blue"
 		"teambg_4"			"../hud/misc_ammo_area_purple"
 	}
-	
+
 	"CloakLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -38,7 +38,7 @@
 		"brighttext"		"0"
 		"font"				"FontRegular8"
 	}
-	
+
 	"CloakMeter"
 	{
 		"ControlName"		"ContinuousProgressBar"

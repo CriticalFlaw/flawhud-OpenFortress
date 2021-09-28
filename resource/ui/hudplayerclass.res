@@ -39,8 +39,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/class_mercenarycolorless"
-		"scaleImage"	"1"	
-	}	
+		"scaleImage"	"1"
+	}
 	"PlayerStatusSpyImage"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -53,7 +53,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/class_spyred"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"teambg_2"		"../hud/class_spyred"
 		"teambg_3"		"../hud/class_spyblue"
 		"teambg_4"		"../hud/class_spymercenary"

@@ -9,7 +9,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	
+
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -19,7 +19,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	
+
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -38,7 +38,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	
+
 	"PlayerGuiHealthValue"
 	{
 		"ControlName"	"CExLabel"
@@ -55,7 +55,7 @@
 		"font"			"FontBold22"
 		"fgcolor_override"	"White"
 	}
-	
+
 	"FortniteHealthBar"
 	{
 		"ControlName"	"CTExProgressBar"
@@ -74,14 +74,14 @@
 		"textAlignment"	"Left"
 		"dulltext"		"1"
 		"brighttext"	"1"
-		
+
 		"if_class_jonesy"
 		{
 			"visible"		"1"
 			"enabled"		"1"
 		}
 	}
-	
+
 	"FortniteShieldBar"
 	{
 		"ControlName"	"CTExProgressBar"
@@ -101,7 +101,7 @@
 		"textAlignment"	"Left"
 		"dulltext"		"1"
 		"brighttext"	"1"
-		
+
 		"if_class_jonesy"
 		{
 			"visible"		"1"

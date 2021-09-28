@@ -6,12 +6,12 @@
 	{
 		"labelText"		"#TF_Class_Name_Demoman"
 	}
-		
-	"ClassIcon"	
+
+	"ClassIcon"
 	{
 		"icon"			"hud_menu_demoman_mercenary"
 	}
-	
+
 	"NumberLabel"
 	{
 		"labelText"		"4"

@@ -1,5 +1,6 @@
 Scheme
 {
+	//////////////////////// COLORS ///////////////////////////
 	Colors
 	{
 		// HUD COLORS
@@ -21,12 +22,11 @@ Scheme
 		"DarkerGrey"				"22 22 22 255"
 		"Brown"						"49 44 41 255"
 		"ShadowBlack"				"7 7 7 255"
-		"HudBlack"					"0 0 0 230"
 		"NeonRed"					"200 10 20 255"
 		"MenuShader"				"0 0 0 100"
 		"TextColor"					"117 107 94 255"
 		"NeutralWhite"				"235 226 202 255"
-		"HoverWhite"				"214 206 200 255"
+		"HoverWhite"				"245 230 200 255"
 		//---------------------------------------------
 		// Gameplay
 		"Overheal"					"0 170 127 255"
@@ -63,7 +63,7 @@ Scheme
 		"Orange"					"178 82 22 255"
 		"OrangeDim"					"178 82 22 120"
 		"LightOrange"				"188 112 0 128"
-		
+
 		"White"						"235 235 235 255"
 		"Red"						"158 64 61 255"
 		"RedSolid"					"158 64 61 255"
@@ -71,12 +71,12 @@ Scheme
 		"Yellow"					"251 235 202 255"
 		"TransparentYellow"			"251 235 202 140"
 		//"Black"					"0 0 0 255"
-		
+
 		"Black"						"46 43 42 255"
 		"TransparentBlack"			"0 0 0 196"
 		"TransparentLightBlack"		"0 0 0 90"
 		"FooterBGBlack"				"52 48 55 255"
-		
+
 		"HUDBlueTeam"				"104 124 155 127"
 		"HUDRedTeam"				"180 92 77 127"
 		"HUDSpectator"				"124 124 124 127"
@@ -85,10 +85,10 @@ Scheme
 		"HUDDeathWarning"			"255 0 0 255"
 		"HudWhite"					"255 255 255 255"
 		"HudOffWhite"				"200 187 161 255"
-		
+		"HudBlack"					"16 16 16 230"
+
 		"Gray"						"70 70 70 255"
 		"TransparentGray"			"70 70 70 156"
-
 		"Blank"						"0 0 0 0"
 		"ForTesting"				"255 0 0 32"
 		"ForTesting_Magenta"		"255 0 255 255"
@@ -101,44 +101,43 @@ Scheme
 		"HudProgressBarActive"		"240 207 78 255"
 		"HudProgressBarInActive"	"140 120 73 255"
 		"HudProgressBarActiveLow"	"240 30 30 255"
-		"HudProgressBarInActiveLow"	"240 30 30 99"	
+		"HudProgressBarInActiveLow"	"240 30 30 99"
 
 		"HudTimerProgressActive"	"251 235 202 255"
 		"HudTimerProgressInActive"	"52 48 45 255"
 		"HudTimerProgressWarning"	"240 30 30 255"
-		
+
+		// Training
+		"HudTrainingHint"			"212 160 23 255"
+
 		"TanDark"					"117 107 94 255"
 		"TanLight"					"235 226 202 255"
 		"TanDarker"					"46 43 42 255"
-		
+
+		"StoreDarkTan"				"131 121 104 255"
+		"StoreGreen"				"76 107 34 255"
+
 		// Building HUD Specific
 		"LowHealthRed"				"255 0 0 255"
 		"ProgressOffWhite"			"251 235 202 255"
 		"ProgressBackground"		"250 234 201 51"
 		"HealthBgGrey"				"72 71 69 255"
-		
-		"ProgressOffWhiteTransparent"	"251 235 202 128"
-		
+
 		"LabelDark"					"48 43 42 255"
 		"LabelTransparent"			"109 96 80 180"
-		
+
 		"BuildMenuActive"			"248 231 198 255"
-		
+
 		"DisguiseMenuIconRed"		"192 56 63 255"
 		"DisguiseMenuIconBlue"		"92 128 166 255"
-		
- 		//"MatchmakingDialogTitleColor"			"200 184 151 255"
- 		//"MatchmakingMenuItemBackground"		"46 43 42 255"
- 		//"MatchmakingMenuItemBackgroundActive"	"150 71 0 255"	
-		//"MatchmakingMenuItemTitleColor"		"200 184 151 255"
-		//"MatchmakingMenuItemDescriptionColor"	"200 184 151 255"
 
- 		"MatchmakingDialogTitleColor"			"255 255 250 255"
+		"ProgressOffWhiteTransparent"			"251 235 202 128"
+ 		"MatchmakingDialogTitleColor"			"200 184 151 255"
  		"MatchmakingMenuItemBackground"			"46 43 42 255"
- 		"MatchmakingMenuItemBackgroundActive"	"99 65 160 255"	
-		"MatchmakingMenuItemTitleColor"			"255 255 250 255"
-		"MatchmakingMenuItemDescriptionColor"	"255 255 250 255"
-		
+ 		"MatchmakingMenuItemBackgroundActive"	"150 71 0 255"
+		"MatchmakingMenuItemTitleColor"			"200 184 151 255"
+		"MatchmakingMenuItemDescriptionColor"	"200 184 151 255"
+
 		"HTMLBackground"						"95 92 101 255"
 		"FgColor_hl2"							"255 255 255 100"
 		"BgColor_hl2"							"0 0 0 76"
@@ -150,7 +149,6 @@ Scheme
 		"SelectionBoxBg_hl2" 					"0 0 0 80"
 		"SelectionSelectedBoxBg_hl2"			"0 0 0 80"
 
-		// TF2 item stuffs
 		"QualityColorNormal"					"178 178 178 255"
 		"QualityColorrarity1"					"77 116 85 255"
 		"QualityColorrarity2"					"141 131 75 255"
@@ -168,6 +166,23 @@ Scheme
 		"QualityColorCollectors"				"170 0 0 255"
 		"QualityColorPaintkitWeapon"			"250 250 250 255"
 
+		"DimmQualityColorNormal"				"178 178 178 100"
+		"DimmQualityColorrarity1"				"77 116 85 100"
+		"DimmQualityColorrarity2"				"141 131 75 100"
+		"DimmQualityColorrarity3"				"204 204 250 100"
+		"DimmQualityColorrarity4"				"134 80 172 100"
+		"DimmQualityColorVintage"				"71 98 145 100"
+		"DimmQualityColorUnique"				"255 215 0 100"
+		"DimmQualityColorCommunity"				"112 176 74 100"
+		"DimmQualityColorDeveloper"				"165 15 121 100"
+		"DimmQualityColorSelfMade"				"112 176 74 100"
+		"DimmQualityColorCustomized"			"71 98 145 100"
+		"DimmQualityColorStrange"				"207 106 50 100"
+		"DimmQualityColorCompleted"				"134 80 172 100"
+		"DimmQualityColorHaunted"				"56 243 171 100"
+		"DimmQualityColorCollectors"			"170 0 0 100"
+		"DimmQualityColorPaintkitWeapon"		"250 250 250 100"
+
 		"ItemRarityDefault"						"131 126 119 255"
 		"ItemRarityCommon"						"176 195 217 255"
 		"ItemRarityUncommon"					"94 152 217 255"
@@ -175,7 +190,15 @@ Scheme
 		"ItemRarityMythical"					"136 71 255 255"
 		"ItemRarityLegendary"					"211 44 230 255"
 		"ItemRarityAncient"						"235 75 75 255"
-		
+
+		"DimmItemRarityDefault"					"131 126 119 100"
+		"DimmItemRarityCommon"					"176 195 217 100"
+		"DimmItemRarityUncommon"				"94 152 217 100"
+		"DimmItemRarityRare"					"75 105 255 100"
+		"DimmItemRarityMythical"				"136 71 255 100"
+		"DimmItemRarityLegendary"				"211 44 230 100"
+		"DimmItemRarityAncient"					"235 75 75 100"
+
 		"ItemRarityDefault_GreyedOut"			"44 42 40 255"
 		"ItemRarityCommon_GreyedOut"			"59 65 72 255"
 		"ItemRarityUncommon_GreyedOut"			"31 50 72 255"
@@ -183,7 +206,7 @@ Scheme
 		"ItemRarityMythical_GreyedOut"			"45 24 85 255"
 		"ItemRarityLegendary_GreyedOut"			"70 15 77 255"
 		"ItemRarityAncient_GreyedOut"			"78 25 25 255"
-		
+
 		"QualityColorNormal_GreyedOut"			"44 44 44 255"
 		"QualityColorrarity1_GreyedOut"			"20 29 21 255"
 		"QualityColorrarity2_GreyedOut"			"35 33 19 255"
@@ -200,13 +223,13 @@ Scheme
 		"QualityColorHaunted_GreyedOut"			"14 61 43 255"
 		"QualityColorCollectors_GreyedOut"		"60 0 0 255"
 		"QualityColorPaintkitWeapon_GreyedOut"	"60 60 60 255"
-		
+
 		"SaleGreen"								"76 107 34 255"
 		"LightRed"								"200 80 60 255"
 		"LighterRed"							"220 100 80 255"
 		"LighterDarkBrown"						"59 54 48 255"
 		"DarkBrown"								"41 37 38 255"
-		
+
 		"UpgradeDefaultFg"						"87 82 74 255"
 		"UpgradeDefaultBg"						"111 104 94 255"
 		"UpgradeArmedFg"						"194 96 47 255"

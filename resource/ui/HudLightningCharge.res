@@ -17,7 +17,7 @@
 		"teambg_3"			"../hud/medic_charge_blue_bg"
 		"teambg_4"			"../hud/medic_charge_purple_bg"
 	}
-	
+
 	"ChargeLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -38,7 +38,7 @@
 		"brighttext"		"0"
 		"font"				"FontRegular8"
 	}
-	
+
 	"ChargeMeter"
 	{
 		"ControlName"		"ContinuousProgressBar"
@@ -57,7 +57,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 	}
-	
+
 	"LightningIcon"
 	{
 		"ControlName"		"ImagePanel"

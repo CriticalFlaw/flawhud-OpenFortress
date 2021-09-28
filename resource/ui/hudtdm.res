@@ -33,7 +33,7 @@
 		"font"				"HudFontMediumBold"
 		"fgcolor"			"ShadowBlack"
 		"proportionalToParent"	"1"
-		
+
 		"pin_to_sibling"		"RedKillsValue"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
@@ -71,7 +71,7 @@
 		"font"				"HudFontMediumBold"
 		"fgcolor"			"ShadowBlack"
 		"proportionalToParent"	"1"
-		
+
 		"pin_to_sibling"		"BluKillsValue"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
@@ -109,7 +109,7 @@
 		"font"				"FontBold18"
 		"fgcolor"			"Black"
 		"proportionalToParent"	"1"
-		
+
 		"pin_to_sibling"		"Red"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
@@ -147,7 +147,7 @@
 		"font"				"FontBold18"
 		"fgcolor"			"Black"
 		"proportionalToParent"	"1"
-		
+
 		"pin_to_sibling"		"Blu"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
@@ -175,7 +175,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayingToBG"
-		"xpos"			"c-60"	
+		"xpos"			"c-60"
 		"ypos"			"c-1"
 		"zpos"			"3"
 		"wide"			"120"
@@ -184,10 +184,10 @@
 		"enabled"		"0"
 		"image"			"../hud/objectives_flagpanel_bg_playingto"
 		"image_hidef"	"../hud/objectives_flagpanel_bg_playingto_hidef"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"proportionalToParent"	"1"
 	}
-	
+
 	"ScoreOutline"
 	{
 		"fieldName"			"ScoreOutline"
@@ -203,7 +203,7 @@
 		"Image"				"../hud/objectives_corepanel_bg"
 		"proportionalToParent"	"1"
 	}
-	
+
 	"BluProgress"
 	{
 		"fieldName"			"BluProgress"
@@ -220,7 +220,7 @@
 		"alignment"			"right"
 		"proportionalToParent"	"1"
 	}
-	
+
 	"RedProgress"
 	{
 		"fieldName"			"RedProgress"
@@ -237,7 +237,7 @@
 		"alignment"			"left"
 		"proportionalToParent"	"1"
 	}
-	
+
 	"ScoreContainer"
 	{
 		"fieldName"			"ScoreContainer"
@@ -250,7 +250,7 @@
 		"scaleimage"		"0"
 		"visible"			"1"
 		"enabled"			"1"
-		
+
 		"ProgressBarContainer"
 		{
 			"fieldName"			"ProgressBarContainer"
@@ -263,7 +263,7 @@
 			"visible"			"1"
 			"enabled"			"1"
 			"proportionalToParent"	"1"
-			
+
 			"ScoreOutline"
 			{
 				"fieldName"			"ScoreOutline"
@@ -278,7 +278,7 @@
 				"enabled"			"1"
 				"Image"				"../hud/objectives_corepanel_bg"
 			}
-			
+
 			"RedProgressBarFill"
 			{
 				"fieldName"			"RedProgressBarFill"
@@ -303,7 +303,7 @@
 				"proportionalToParent"	"1"
 			}
 		}
-		
+
 		"BlueScoreValueContainer"
 		{
 			"ControlName"		"EditablePanel"
@@ -317,7 +317,7 @@
 			"enabled"			"1"
 			"bgcolor_override"	"0 0 0 0"
 			"proportionalToParent"	"1"
-			
+
 			"Score"
 			{
 				"ControlName"		"CExLabel"
@@ -335,7 +335,7 @@
 				"fgcolor"			"TanLight"
 				"proportionalToParent"	"1"
 			}
-			
+
 			"ScoreShadow"
 			{
 				"ControlName"		"CExLabel"
@@ -354,7 +354,7 @@
 				"proportionalToParent"	"1"
 			}
 		}
-		
+
 		"RedScoreValueContainer"
 		{
 			"ControlName"		"EditablePanel"
@@ -368,7 +368,7 @@
 			"enabled"			"1"
 			"bgcolor_override"	"0 0 0 0"
 			"proportionalToParent"	"1"
-			
+
 			"Score"
 			{
 				"ControlName"		"CExLabel"
@@ -384,9 +384,9 @@
 				"labelText"			"%score%"
 				"font"				"HudFontMediumBold"
 				"fgcolor"			"TanLight"
-				"proportionalToParent"	"1"	
+				"proportionalToParent"	"1"
 			}
-			
+
 			"ScoreShadow"
 			{
 				"ControlName"		"CExLabel"

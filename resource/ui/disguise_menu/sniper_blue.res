@@ -6,12 +6,12 @@
 	{
 		"labelText"			"#TF_Class_Name_Sniper"
 	}
-	
+
 	"ClassIcon"
 	{
 		"icon"				"hud_menu_sniper_blu"
 	}
-	
+
 	"NumberLabel"
 	{
 		"labelText"			"8"

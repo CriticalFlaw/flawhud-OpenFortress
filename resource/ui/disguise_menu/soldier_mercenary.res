@@ -6,12 +6,12 @@
 	{
 		"labelText"		"#TF_Class_Name_Soldier"
 	}
-		
-	"ClassIcon"	
+
+	"ClassIcon"
 	{
 		"icon"			"hud_menu_soldier_mercenary"
 	}
-	
+
 	"NumberLabel"
 	{
 		"labelText"		"2"

@@ -9,7 +9,7 @@
 		"wide"			"190"
 		"tall"			"32"
 		"visible"		"1"
-		
+
 		"FreezePanelBG"
 		{
 			"ControlName"	"ImagePanel"
@@ -24,7 +24,7 @@
 			"fillcolor"		"HudBlack"
 			"scaleImage"		"1"
 		}
-		
+
 		"FreezeLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -44,7 +44,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
-		
+
 		"FreezePanelHealth"
 		{
 			"ControlName"	"CTFFreezePanelHealth"
@@ -62,7 +62,7 @@
 			"HealthDeathWarningColor"	"HUDDeathWarning"
 			"TextColor"					"HudOffWhite"
 		}
-		
+
 		"FreezeLabelKiller"
 		{
 			"ControlName"	"CExLabel"
@@ -82,7 +82,7 @@
 			"textinsetx"	"14"
             "use_proportional_insets" "1"
 		}
-		
+
 		"AvatarImage"
 		{
 			"ControlName"	"CAvatarImagePanel"
@@ -95,10 +95,10 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			""
-			"scaleImage"	"1"	
+			"scaleImage"	"1"
 			"color_outline"	"HudTimerProgressInActive"
 		}
-		
+
 		"NemesisSubPanel"
 		{
 			"ControlName"	"EditablePanel"
@@ -109,7 +109,7 @@
 			"enabled"		"0"
 		}
 	}
-	
+
 	"ScreenshotPanel"
 	{
 		"ControlName"	"EditablePanel"

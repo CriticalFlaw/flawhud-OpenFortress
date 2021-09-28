@@ -18,7 +18,7 @@
 		"teambg_3"			"../hud/misc_ammo_area_horiz1_blue"
 		"teambg_4"			"../hud/misc_ammo_area_horiz1_mercenary"
 	}
-	
+
 	"LungeLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -39,7 +39,7 @@
 		"brighttext"		"0"
 		"font"				"FontRegular8"
 	}
-	
+
 	"LungeMeter"
 	{
 		"ControlName"		"ContinuousProgressBar"

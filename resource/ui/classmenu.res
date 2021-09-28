@@ -14,7 +14,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
-	
+
 	"SysMenu"
 	{
 		"ControlName"	"Menu"
@@ -29,7 +29,7 @@
 		"enabled"		"0"
 		"tabPosition"	"0"
 	}
-	
+
 	"SelectClassLabel"
 	{
 		"ControlName"	"Label"
@@ -46,7 +46,7 @@
 		"font"			"FontBold22"
 		"fgcolor_override"	"White"
 	}
-	
+
 	"OffensePanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -57,7 +57,7 @@
 		"wide"			"100"
 		"tall"			"42"
 		"proportionalToParent"	"0"
-		
+
 		"OffenseBackground"
 		{
 			"ControlName"	"CTFImagePanel"
@@ -91,22 +91,22 @@
 			"Default"			"0"
 			"font"				"FontRegular12"
 			"paintbackground"	"0"
-			
+
 			"fgcolor"					"255 255 255 128"
 			"defaultFgColor_override"	"255 255 255 128"
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"255 255 255 128"
 			"selectedFgColor_override"	"White"
-			
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"		"UI/buttonrollover.wav"
-			
+
 			"stayselectedonclick"	"1"
 			"selectonhover"			"1"
 			"keyboardinputenabled"	"0"
 		}
-		
+
 		"soldier"
 		{
 			"ControlName"		"CExButton"
@@ -127,22 +127,22 @@
 			"Default"			"0"
 			"font"				"FontRegular12"
 			"paintbackground"	"0"
-			
+
 			"fgcolor"					"255 255 255 128"
 			"defaultFgColor_override"	"255 255 255 128"
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"255 255 255 128"
 			"selectedFgColor_override"	"White"
-			
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"		"UI/buttonrollover.wav"
-			
+
 			"stayselectedonclick"	"1"
 			"selectonhover"			"1"
 			"keyboardinputenabled"	"0"
 		}
-		
+
 		"pyro"
 		{
 			"ControlName"		"CExButton"
@@ -163,23 +163,23 @@
 			"Default"			"0"
 			"font"				"FontRegular12"
 			"paintbackground"	"0"
-			
+
 			"fgcolor"					"255 255 255 128"
 			"defaultFgColor_override"	"255 255 255 128"
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override" "255 255 255 128"
 			"selectedFgColor_override" 	"White"
-			
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"		"UI/buttonrollover.wav"
-			
+
 			"stayselectedonclick"	"1"
 			"selectonhover"			"1"
 			"keyboardinputenabled"	"0"
 		}
 	}
-	
+
 	"DefensePanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -189,7 +189,7 @@
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"42"
-		
+
 		"DefenseBackground"
 		{
 			"ControlName"	"CTFImagePanel"
@@ -203,7 +203,7 @@
 			"scaleImage"	"1"
 			"proportionalToParent"	"1"
 		}
-		
+
 		"demoman"
 		{
 			"ControlName"		"CExButton"
@@ -224,22 +224,22 @@
 			"Default"			"0"
 			"font"				"FontRegular12"
 			"paintbackground"	"0"
-			
+
 			"fgcolor"					"255 255 255 128"
 			"defaultFgColor_override"	"255 255 255 128"
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override" "255 255 255 128"
 			"selectedFgColor_override" 	"White"
-			
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"		"UI/buttonrollover.wav"
-			
+
 			"stayselectedonclick"	"1"
 			"selectonhover"			"1"
 			"keyboardinputenabled"	"0"
 		}
-		
+
 		"heavyweapons"
 		{
 			"ControlName"		"CExButton"
@@ -260,22 +260,22 @@
 			"Default"			"0"
 			"font"				"FontRegular12"
 			"paintbackground"	"0"
-			
+
 			"fgcolor"					"255 255 255 128"
 			"defaultFgColor_override"	"255 255 255 128"
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override" "255 255 255 128"
 			"selectedFgColor_override" 	"White"
-			
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"		"UI/buttonrollover.wav"
-			
+
 			"stayselectedonclick"	"1"
 			"selectonhover"			"1"
 			"keyboardinputenabled"	"0"
 		}
-		
+
 		"engineer"
 		{
 			"ControlName"		"CExButton"
@@ -296,23 +296,23 @@
 			"Default"			"0"
 			"font"				"FontRegular12"
 			"paintbackground"	"0"
-			
+
 			"fgcolor"					"255 255 255 128"
 			"defaultFgColor_override" 	"255 255 255 128"
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override" "255 255 255 128"
 			"selectedFgColor_override" 	"White"
-			
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"		"UI/buttonrollover.wav"
-			
+
 			"stayselectedonclick"	"1"
 			"selectonhover"			"1"
 			"keyboardinputenabled"	"0"
 		}
 	}
-	
+
 	"SupportPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -322,7 +322,7 @@
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"42"
-		
+
 		"SupportBackground"
 		{
 			"ControlName"	"CTFImagePanel"
@@ -334,7 +334,7 @@
 			"image"			"class_background"
 			"scaleImage"	"1"
 		}
-		
+
 		"medic"
 		{
 			"ControlName"		"CExButton"
@@ -355,22 +355,22 @@
 			"Default"			"0"
 			"font"				"FontRegular12"
 			"paintbackground"	"0"
-			
+
 			"fgcolor"					"255 255 255 128"
 			"defaultFgColor_override"	"255 255 255 128"
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override" "255 255 255 128"
 			"selectedFgColor_override" 	"White"
-			
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"		"UI/buttonrollover.wav"
-			
+
 			"stayselectedonclick"	"1"
 			"selectonhover"			"1"
 			"keyboardinputenabled"	"0"
 		}
-		
+
 		"sniper"
 		{
 			"ControlName"		"CExButton"
@@ -391,22 +391,22 @@
 			"Default"			"0"
 			"font"				"FontRegular12"
 			"paintbackground"	"0"
-			
+
 			"fgcolor"					"255 255 255 128"
 			"defaultFgColor_override"	"255 255 255 128"
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override" "255 255 255 128"
 			"selectedFgColor_override" 	"White"
-			
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"		"UI/buttonrollover.wav"
-			
+
 			"stayselectedonclick"	"1"
 			"selectonhover"			"1"
 			"keyboardinputenabled"	"0"
 		}
-		
+
 		"spy"
 		{
 			"ControlName"		"CExButton"
@@ -428,23 +428,23 @@
 			"font"				"FontRegular12"
 			"scaleImage"		"1"
 			"paintbackground"	"0"
-			
+
 			"fgcolor"					"255 255 255 128"
 			"defaultFgColor_override"	"255 255 255 128"
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override" "255 255 255 128"
 			"selectedFgColor_override" 	"White"
-			
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"		"UI/buttonrollover.wav"
-			
+
 			"stayselectedonclick"	"1"
 			"selectonhover"			"1"
 			"keyboardinputenabled"	"0"
 		}
 	}
-	
+
 	"MiscPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -454,7 +454,7 @@
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"42"
-		
+
 		"MiscBackground"
 		{
 			"ControlName"	"CTFImagePanel"
@@ -468,7 +468,7 @@
 			"scaleImage"	"1"
 			"proportionalToParent"	"1"
 		}
-		
+
 		"mercenary"
 		{
 			"ControlName"		"CExButton"
@@ -489,22 +489,22 @@
 			"Default"			"0"
 			"font"				"FontRegular12"
 			"paintbackground"	"0"
-			
+
 			"fgcolor"					"255 255 255 128"
 			"defaultFgColor_override"	"255 255 255 128"
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override" "255 255 255 128"
 			"selectedFgColor_override" 	"White"
-			
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"		"UI/buttonrollover.wav"
-			
+
 			"stayselectedonclick"	"1"
 			"selectonhover"			"1"
 			"keyboardinputenabled"	"0"
 		}
-		
+
 		"civilian"
 		{
 			"ControlName"		"CExButton"
@@ -525,22 +525,22 @@
 			"Default"			"0"
 			"font"				"FontRegular12"
 			"paintbackground"	"0"
-			
+
 			"fgcolor"					"255 255 255 128"
 			"defaultFgColor_override"	"255 255 255 128"
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override" "255 255 255 128"
 			"selectedFgColor_override" 	"White"
-			
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"		"UI/buttonrollover.wav"
-			
+
 			"stayselectedonclick"	"1"
 			"selectonhover"			"1"
 			"keyboardinputenabled"	"0"
 		}
-		
+
 		"randompc"
 		{
 			"ControlName"		"CExButton"
@@ -561,17 +561,17 @@
 			"Default"			"1"
 			"font"				"FontRegular12"
 			"paintbackground"	"0"
-			
+
 			"fgcolor"					"255 255 255 128"
 			"defaultFgColor_override"	"255 255 255 128"
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override" "255 255 255 128"
 			"selectedFgColor_override" 	"White"
-			
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"		"UI/buttonrollover.wav"
-			
+
 			"stayselectedonclick"	"1"
 			"selectonhover"			"1"
 			"keyboardinputenabled"	"0"
@@ -584,7 +584,7 @@
 			"visible"			"0"
 		}
 	}
-	"CancelButton" [$WIN32] 
+	"CancelButton" [$WIN32]
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
@@ -603,21 +603,21 @@
 		"Command"		"vguicancel"
 		"font"			"FontRegular12"
 		"paintbackground" "0"
-		
+
 		"fgcolor"					"255 255 255 128"
 		"defaultFgColor_override"	"255 255 255 128"
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override" "255 255 255 128"
 		"selectedFgColor_override" 	"White"
 	}
-	
+
 	"MenuBG"
 	{
 		"ControlName"	"CModelPanel"
 		"fieldName"		"MenuBG"
 		"xpos"			"9999"
 		"ypos"			"9999"
-		"zpos"			"0"		
+		"zpos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
 		"autoResize"	"0"
@@ -625,7 +625,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"fov"			"16"
-		
+
 		"model"
 		{
 			"modelname"	"models/vgui/UI_class01.mdl"
@@ -638,7 +638,7 @@
 			"origin_z" "-40"
 		}
 	}
-	
+
 	"ShadedBar"
 	{
 		"ControlName"	"ImagePanel"
@@ -653,7 +653,7 @@
 		"PaintBackgroundType"	"0"
 		"fillcolor"		"HudBlack"
 	}
-	
+
 	"countImage0" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
@@ -668,7 +668,7 @@
 		"image"			""
 		"scaleImage"	"1"
 	}
-	
+
 	"countImage1" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
@@ -683,7 +683,7 @@
 		"image"			""
 		"scaleImage"	"1"
 	}
-	
+
 	"countImage2" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
@@ -698,7 +698,7 @@
 		"image"			""
 		"scaleImage"	"1"
 	}
-	
+
 	"countImage3" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
@@ -713,7 +713,7 @@
 		"image"			""
 		"scaleImage"	"1"
 	}
-	
+
 	"countImage4" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
@@ -728,7 +728,7 @@
 		"image"			""
 		"scaleImage"	"1"
 	}
-	
+
 	"countImage5" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
@@ -743,7 +743,7 @@
 		"image"			""
 		"scaleImage"	"1"
 	}
-	
+
 	"countImage6" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
@@ -758,7 +758,7 @@
 		"image"			""
 		"scaleImage"	"1"
 	}
-	
+
 	"countImage7" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
@@ -773,7 +773,7 @@
 		"image"			""
 		"scaleImage"	"1"
 	}
-	
+
 	"countImage8" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
@@ -788,7 +788,7 @@
 		"image"			""
 		"scaleImage"	"1"
 	}
-	
+
 	"countImage9" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
@@ -803,7 +803,7 @@
 		"image"			""
 		"scaleImage"	"1"
 	}
-	
+
 	"countImage10" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
@@ -818,7 +818,7 @@
 		"image"			""
 		"scaleImage"	"1"
 	}
-	
+
 	"CountLabel" [$WIN32]
 	{
 		"ControlName"	"CExLabel"
@@ -838,7 +838,7 @@
 		"font"			"HudFontMediumSmallSecondary"
 		"fgcolor"		"TanLight"
 	}
-	
+
 	"numScout"
 	{
 		"ControlName"	"CExLabel"
@@ -858,7 +858,7 @@
 		"font"			"FontRegular12"
 		"fgcolor"		"White"
 	}
-	
+
 	"numSoldier"
 	{
 		"ControlName"	"CExLabel"
@@ -878,7 +878,7 @@
 		"font"			"FontRegular12"
 		"fgcolor"		"White"
 	}
-	
+
 	"numPyro"
 	{
 		"ControlName"	"CExLabel"
@@ -898,7 +898,7 @@
 		"font"			"FontRegular12"
 		"fgcolor"		"White"
 	}
-	
+
 	"numDemoman"
 	{
 		"ControlName"	"CExLabel"
@@ -918,7 +918,7 @@
 		"font"			"FontRegular12"
 		"fgcolor"		"White"
 	}
-	
+
 	"numHeavy"
 	{
 		"ControlName"	"CExLabel"
@@ -938,7 +938,7 @@
 		"font"			"FontRegular12"
 		"fgcolor"		"White"
 	}
-	
+
 	"numEngineer"
 	{
 		"ControlName"	"CExLabel"
@@ -958,7 +958,7 @@
 		"font"			"FontRegular12"
 		"fgcolor"		"White"
 	}
-	
+
 	"numMedic"
 	{
 		"ControlName"	"CExLabel"
@@ -978,7 +978,7 @@
 		"font"			"FontRegular12"
 		"fgcolor"		"White"
 	}
-	
+
 	"numSniper"
 	{
 		"ControlName"	"CExLabel"
@@ -998,7 +998,7 @@
 		"font"			"FontRegular12"
 		"fgcolor"		"White"
 	}
-	
+
 	"numSpy"
 	{
 		"ControlName"	"CExLabel"

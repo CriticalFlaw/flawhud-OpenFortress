@@ -8,7 +8,7 @@
 		"wide"			"0"
 		"tall"			"0"
 	}
-	
+
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -33,7 +33,7 @@
 		"wide"			"0"
 		"tall"			"0"
 	}
-	
+
 	"PlayerGuiHealthValue"
 	{
 		"ControlName"	"CExLabel"
@@ -49,7 +49,7 @@
 		"textAlignment"	"center"
 		"font"			"FontBold20"
 	}
-	
+
 	"PlayerGuiHealthValueShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -65,7 +65,7 @@
 		"textAlignment"	"center"
 		"font"			"FontBold20"
 		"fgcolor"		"ShadowBlack"
-		
+
 		"pin_to_sibling"		"PlayerGuiHealthValue"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"

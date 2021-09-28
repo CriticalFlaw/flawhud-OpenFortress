@@ -14,7 +14,7 @@
 		"status_width"		"40"
 		"nemesis_width"		"20"
 	}
-	
+
 	"BlueBG"
 	{
 		"xpos"				"9999"
@@ -48,12 +48,12 @@
 		"enabled"			"1"
 		"bgcolor_override"	"HudBlack"
 		"PaintBackgroundType"	"2"
-		
+
 		"pin_to_sibling"		"DMBG"
 		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 	}
-	
+
 	"MercenaryTeamPlayerCount"
 	{
 		"ControlName"		"CExLabel"
@@ -70,12 +70,12 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		
+
 		"pin_to_sibling"		"DMBG"
 		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 	}
-	
+
 	"ServerLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -92,7 +92,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		
+
 		"pin_to_sibling"		"DMBG"
 		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -110,11 +110,11 @@
 		"wide"				"450"
 		"tall"				"55"
 		"autoResize"		"0"
-		"pinCorner"			"0"	
+		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"%FragLimit%"
-		
+
 		"pin_to_sibling"		"DMBG"
 		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
@@ -132,16 +132,16 @@
 		"wide"				"450"
 		"tall"				"55"
 		"autoResize"		"0"
-		"pinCorner"			"0"	
+		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"%FragLimit%"
-		
+
 		"pin_to_sibling"		"HudKillsLabel"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-	
+
 	"MercenaryPlayerList"
 	{
 		"ControlName"		"SectionedListPanel"
@@ -158,12 +158,12 @@
 		"autoresize"		"0"
 		"linespacing"		"19"
 		"fgcolor"			"blue"
-		
+
 		"pin_to_sibling"		"MainBG"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-	
+
 	"BluePlayerList"
 	{
 		"wide"				"0"
@@ -178,7 +178,7 @@
 		"ypos"				"403"
 		"wide"				"423"
 	}
-	
+
 	"ShadedBar"
 	{
 		"ypos"				"63"
@@ -191,7 +191,7 @@
 		"zpos"				"600"
 		"wide"				"325"
 		"tall"				"50"
-	}		
+	}
 	"HorizontalLine"
 	{
 		"xpos"				"184"
@@ -199,7 +199,7 @@
 		"wide"				"316"
 		"fillcolor"			"229 229 128 153"
 	}
-	
+
 	"PlayerScoreLabel"
 	{
 		"font"				"HudFontMediumBold"
@@ -226,7 +226,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	
+
 	//frags
 	"Label01"
 	{
@@ -244,7 +244,7 @@
 		"pinCorner"			"0"
 		"visible"			"0"
 		"enabled"			"0"
-		
+
 		"pin_to_sibling"		"ShadedBar"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
@@ -264,7 +264,7 @@
 		"pinCorner"			"0"
 		"visible"			"0"
 		"enabled"			"0"
-		
+
 		"pin_to_sibling"		"Label01"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"

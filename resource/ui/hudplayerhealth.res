@@ -16,7 +16,7 @@
 		"HealthDeathWarning"		"0.49"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 	}
-	
+
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"		"ImagePanel"
@@ -30,7 +30,7 @@
 		"enabled"			"0"
 		"scaleImage"		"1"
 	}
-	
+
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"		"ImagePanel"
@@ -40,7 +40,7 @@
 		"visible"			"0"
 		"enabled"			"0"
 	}
-	
+
 	"HealthBG"
 	{
 		"ControlName"		"EditablePanel"
@@ -55,7 +55,7 @@
 		"defaultbgcolor_override"	"HudBlack"
 		"PaintBackgroundType"		"2"
 	}
-	
+
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"		"ImagePanel"
@@ -70,7 +70,7 @@
 		"image"				""	//"../hud/health_over_bg"
 		"scaleImage"		"1"
 	}
-	
+
 	"PlayerStatusMegaHealthBonusImage"
 	{
 		"ControlName"		"ImagePanel"
@@ -83,9 +83,9 @@
 		"visible"			"0"
 		"enabled"			"1"
 		"image"				""	//"../hud/health_over_bg"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 	}
-	
+
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"		"CExLabel"
@@ -102,7 +102,7 @@
 		"font"				"FontBold50"
 		"fgcolor"			"HudWhite"
 	}
-	
+
 	"PlayerStatusHealthValueShadow"
 	{
 		"ControlName"		"CExLabel"
@@ -118,7 +118,7 @@
 		"textAlignment"		"center"
 		"font"				"FontBold50"
 		"fgcolor"			"ShadowBlack"
-		
+
 		"pin_to_sibling"		"PlayerStatusHealthValue"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"

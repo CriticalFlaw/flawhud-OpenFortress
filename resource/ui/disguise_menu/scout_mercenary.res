@@ -6,12 +6,12 @@
 	{
 		"labelText"		"#TF_Class_Name_Scout"
 	}
-	
-	"ClassIcon"	
+
+	"ClassIcon"
 	{
 		"icon"			"hud_menu_scout_mercenary"
 	}
-	
+
 	"NumberLabel"
 	{
 		"labelText"		"1"

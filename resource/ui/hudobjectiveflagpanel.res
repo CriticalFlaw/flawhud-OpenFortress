@@ -12,7 +12,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"LeftSideBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -26,7 +26,7 @@
 		"enabled"		"1"
 		"fillcolor"		"Blue"
 	}
-	
+
 	"LeftSideBG2"
 	{
 		"ControlName"	"ImagePanel"
@@ -40,7 +40,7 @@
 		"enabled"		"1"
 		"fillcolor"		"DarkBlue"
 	}
-	
+
 	"RightSideBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -54,7 +54,7 @@
 		"enabled"		"1"
 		"fillcolor"		"Red"
 	}
-	
+
 	"RightSideBG2"
 	{
 		"ControlName"	"ImagePanel"
@@ -68,14 +68,14 @@
 		"enabled"		"1"
 		"fillcolor"		"DarkRed"
 	}
-	
+
 	"OutlineBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"OutlineBG"
 		"xpos"			"9999"
 	}
-	
+
 	"BlueScore"
 	{
 		"ControlName"	"CExLabel"
@@ -92,7 +92,7 @@
 		"font"			"FontBold22"
 		"fgcolor"		"White"
 	}
-	
+
 	"BlueScoreShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -108,12 +108,12 @@
 		"labelText"		"%bluescore%"
 		"font"			"FontBold22"
 		"fgcolor"		"ShadowBlack"
-		
+
 		"pin_to_sibling"		"BlueScore"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-	
+
 	"RedScore"
 	{
 		"ControlName"	"CExLabel"
@@ -130,7 +130,7 @@
 		"font"			"FontBold22"
 		"fgcolor"		"White"
 	}
-	
+
 	"RedScoreShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -146,12 +146,12 @@
 		"labelText"		"%redscore%"
 		"font"			"FontBold22"
 		"fgcolor"		"ShadowBlack"
-		
+
 		"pin_to_sibling"		"RedScore"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-	
+
 	"OutlineImage"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -164,9 +164,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_carried_outline"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
-	
+
 	"CarriedImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -181,7 +181,7 @@
 		"image"			"../hud/objectives_flagpanel_carried_red"
 		"scaleImage"	"1"
 	}
-	
+
 	"PlayingTo"
 	{
 		"ControlName"	"CExLabel"
@@ -200,7 +200,7 @@
 		"font"			"FontRegular12"
 		"fgcolor"		"White"
 	}
-	
+
 	"PlayingToBG"
 	{
 		"ControlName"	"EditablePanel"
@@ -215,7 +215,7 @@
 		"bgcolor_override"	"HudBlack"
 		"PaintBackgroundType"	"2"
 	}
-	
+
 	"BlueFlag"
 	{
 		"ControlName"	"CTFFlagStatus"
@@ -228,7 +228,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"RedFlag"
 	{
 		"ControlName"	"CTFFlagStatus"
@@ -241,7 +241,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"NeutralFlag"
 	{
 		"ControlName"	"CTFFlagStatus"
@@ -266,7 +266,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 	}
-	
+
 	"SpecCarriedImage"
 	{
 		"ControlName"	"ImagePanel"

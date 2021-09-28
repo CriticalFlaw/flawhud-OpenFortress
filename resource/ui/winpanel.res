@@ -9,7 +9,7 @@
 		"wide"				"200"
 		"tall"				"40"
 		"visible"			"1"
-		
+
 		"BlueScoreBG"
 		{
 			"ControlName"		"EditablePanel"
@@ -24,7 +24,7 @@
 			"enabled"			"1"
 			"border"			"TFFatLineBorderBlueBGMoreOpaque"
 		}
-		
+
 		"RedScoreBG"
 		{
 			"ControlName"		"EditablePanel"
@@ -39,7 +39,7 @@
 			"enabled"			"1"
 			"border"			"TFFatLineBorderRedBGMoreOpaque"
 		}
-		
+
 		"BLUBG"
 		{
 			"ControlName"		"ImagePanel"
@@ -55,7 +55,7 @@
 			"enabled"			"1"
 			"fillcolor"			"Blue"
 		}
-		
+
 		"BLUBG2"
 		{
 			"ControlName"		"ImagePanel"
@@ -71,7 +71,7 @@
 			"enabled"			"1"
 			"fillcolor"			"DarkBlue"
 		}
-		
+
 		"REDBG"
 		{
 			"ControlName"		"ImagePanel"
@@ -87,7 +87,7 @@
 			"enabled"			"1"
 			"fillcolor"			"Red"
 		}
-		
+
 		"REDBG2"
 		{
 			"ControlName"		"ImagePanel"
@@ -103,7 +103,7 @@
 			"enabled"			"1"
 			"fillcolor"			"DarkRed"
 		}
-		
+
 		"BlueTeamLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -138,12 +138,12 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
-			
+
 			"pin_to_sibling"		"BlueTeamLabel"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
-		
+
 		"BlueTeamScore"
 		{
 			"ControlName"		"CExLabel"
@@ -178,12 +178,12 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
-			
+
 			"pin_to_sibling"		"BlueTeamScore"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
-		
+
 		"RedTeamLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -201,7 +201,7 @@
 			"visible"			"1"
 			"enabled"			"1"
 		}
-		
+
 		"RedTeamLabelShadow"
 		{
 			"ControlName"		"CExLabel"
@@ -219,12 +219,12 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
-			
+
 			"pin_to_sibling"		"RedTeamLabel"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
-		
+
 		"RedTeamScore"
 		{
 			"ControlName"		"CExLabel"
@@ -259,14 +259,14 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
-			
+
 			"pin_to_sibling"		"RedTeamScore"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
-		
+
 	}
-	
+
 	"WinPanelBGBorder"
 	{
 		"ControlName"	"EditablePanel"
@@ -298,7 +298,7 @@
 		"PaintBackgroundType"	"2"
 	}
 	"WinningTeamLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"WinningTeamLabel"
 		"font"			"FontRegular10"
@@ -317,7 +317,7 @@
 		"brighttext"	"0"
 	}
 	"WinningTeamLabelDropshadow"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"WinningTeamLabelDropshadow"
 		"font"			"FontRegular10"
@@ -335,13 +335,13 @@
 		"textAlignment"	"Center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		
+
 		"pin_to_sibling"		"WinningTeamLabel"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 	"AdvancingTeamLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AdvancingTeamLabel"
 		"font"			"FontRegular10"
@@ -360,7 +360,7 @@
 		"brighttext"	"0"
 	}
 	"AdvancingTeamLabelDropshadow"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AdvancingTeamLabelDropshadow"
 		"font"			"FontRegular10"
@@ -378,13 +378,13 @@
 		"textAlignment"	"Center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		
+
 		"pin_to_sibling"		"AdvancingTeamLabel"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 	"WinReasonLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"WinReasonLabel"
 		"font"			"FontRegular8"
@@ -403,7 +403,7 @@
 		"brighttext"	"0"
 	}
 	"DetailsLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DetailsLabel"
 		"font"			"FontRegular9"
@@ -427,16 +427,16 @@
 		"fieldName"		"ShadedBar"
 		"xpos"			"9999"
 	}
-	
+
 	"TopPlayersLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TopPlayerLabel"
 		"font"			"ScoreboardVerySmall"
 		"xpos"			"9999"
 	}
 	"PointsThisRoundLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PointsThisRoundLabel"
 		"font"			"ScoreboardVerySmall"
@@ -460,11 +460,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			""
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"color_outline"	"52 48 45 255"
 	}
 	"Player1Name"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Player1Name"
 		"xpos"			"29"
@@ -482,7 +482,7 @@
 		"brighttext"	"0"
 	}
 	"Player1Class"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Player1Class"
 		"xpos"			"120"
@@ -500,7 +500,7 @@
 		"brighttext"	"0"
 	}
 	"Player1Score"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Player1Score"
 		"xpos"			"168"
@@ -517,7 +517,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-	
+
 	"Player2Avatar"
 	{
 		"ControlName"	"CAvatarImagePanel"
@@ -534,7 +534,7 @@
 		"color_outline"	"52 48 45 255"
 	}
 	"Player2Name"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Player2Name"
 		"xpos"			"29"
@@ -552,7 +552,7 @@
 		"brighttext"	"0"
 	}
 	"Player2Class"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Player2Class"
 		"xpos"			"120"
@@ -570,7 +570,7 @@
 		"brighttext"	"0"
 	}
 	"Player2Score"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Player2Score"
 		"xpos"			"168"
@@ -587,7 +587,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-	
+
 	"Player3Avatar"
 	{
 		"ControlName"	"CAvatarImagePanel"
@@ -604,7 +604,7 @@
 		"color_outline"	"52 48 45 255"
 	}
 	"Player3Name"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Player3Name"
 		"xpos"			"29"
@@ -622,7 +622,7 @@
 		"brighttext"	"0"
 	}
 	"Player3Class"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Player3Class"
 		"xpos"			"120"
@@ -640,7 +640,7 @@
 		"brighttext"	"0"
 	}
 	"Player3Score"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Player3Score"
 		"xpos"			"168"

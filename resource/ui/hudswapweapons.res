@@ -1,5 +1,5 @@
 "Resource/UI/HudSwapWeapons.res"
-{	
+{
 	"HudSwapWeapons"
 	{
 		"fieldName"			"HudSwapWeapons"
@@ -22,7 +22,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"image"				"../hud/medic_charge_blue_bg"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 		"teambg_2"			"../hud/swap_weapon_red"
 		"teambg_3"			"../hud/swap_weapon_blue"
 		"teambg_4"			"../hud/swap_weapon_mercenary"
@@ -39,7 +39,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"image"				"../sprites/bucket_nailgun"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 	}
 	"Arrow"
 	{
@@ -53,7 +53,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"image"				"../hud/arrow"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 	}
 	"WeaponToSwapTo"
 	{
@@ -67,7 +67,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"image"				"../sprites/bucket_supershotgun"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 	}
 	"SwapBindHint"
 	{

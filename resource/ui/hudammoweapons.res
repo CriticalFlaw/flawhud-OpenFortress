@@ -6,7 +6,7 @@
 		"fieldName"			"HudWeaponAmmoBG"
 		"xpos"				"9999"
 	}
-	
+
 	"AmmoBG"
 	{
 		"ControlName"		"EditablePanel"
@@ -21,7 +21,7 @@
 		"defaultbgcolor_override"	"HudBlack"
 		"PaintBackgroundType"		"2"
 	}
-	
+
 	"AmmoInClip"
 	{
 		"ControlName"		"CExLabel"
@@ -53,12 +53,12 @@
 		"enabled"			"1"
 		"textAlignment"		"east"
 		"labelText"			"%Ammo%"
-		
+
 		"pin_to_sibling"		"AmmoInClip"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-	
+
 	"AmmoInReserve"
 	{
 		"ControlName"		"CExLabel"
@@ -90,12 +90,12 @@
 		"enabled"			"1"
 		"textAlignment"		"west"
 		"labelText"			"%AmmoInReserve%"
-		
+
 		"pin_to_sibling"		"AmmoInReserve"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-	
+
 	"AmmoNoClip"
 	{
 		"ControlName"		"CExLabel"
@@ -127,7 +127,7 @@
 		"enabled"			"1"
 		"textAlignment"		"center"
 		"labelText"			"%Ammo%"
-		
+
 		"pin_to_sibling"		"AmmoNoClip"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"

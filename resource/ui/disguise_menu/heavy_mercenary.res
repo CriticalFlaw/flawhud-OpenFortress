@@ -2,7 +2,7 @@
 
 "Resource/UI/disguise_menu/heavy_red.res"
 {
-	"ClassIcon"	
+	"ClassIcon"
 	{
 		"icon"			"hud_menu_heavy_mercenary"
 	}

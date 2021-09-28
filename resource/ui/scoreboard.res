@@ -24,7 +24,7 @@
 		"score_width"		"25"
 		"ping_width"		"23"
 	}
-	
+
 	"MainBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -41,7 +41,7 @@
 		"image"			"../hud/score_panel_black_bg"
 		"scaleImage"	"1"
 	}
-	
+
 	"BlueLine"
 	{
 		"ControlName"	"EditablePanel"
@@ -60,12 +60,12 @@
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
 		"bgcolor_override"		"Blue"
-		
+
 		"pin_to_sibling"		"BlueBG"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
-	
+
 	"BlueBG"
 	{
 		"ControlName"	"EditablePanel"
@@ -76,7 +76,7 @@
 		"wide"			"290"
 		"tall"			"35"
 		"visible"		"1"
-		"enabled"		"1"	
+		"enabled"		"1"
 		"pinCorner"		"0"
 		"autoResize"	"0"
 		"PaintBackgroundType"	"0"
@@ -96,12 +96,12 @@
 		"enabled"		"1"
 		"bgcolor_override"		"25 25 25 200"
 		"PaintBackgroundType"	"2"
-		
+
 		"pin_to_sibling"		"BlueBG"
 		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 	}
-	
+
 	"BlueTeamLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -118,12 +118,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"Blue"
-		
+
 		"pin_to_sibling"		"BlueBG"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-	
+
 	"BlueTeamScore"
 	{
 		"ControlName"	"CExLabel"
@@ -141,7 +141,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"Blue"
-		
+
 		"pin_to_sibling"		"BlueBG"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
@@ -163,12 +163,12 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"pin_to_sibling"		"BlueTeamScore"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
-	}							
-	
+	}
+
 	"BlueTeamPlayerCount"
 	{
 		"ControlName"	"CExLabel"
@@ -185,12 +185,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"Blue"
-		
+
 		"pin_to_sibling"		"BlueTeamLabel"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-	
+
 	"RedLine"
 	{
 		"ControlName"	"EditablePanel"
@@ -209,12 +209,12 @@
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
 		"bgcolor_override"		"Red"
-		
+
 		"pin_to_sibling"		"RedBG"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-	
+
 	"RedBG"
 	{
 		"ControlName"	"EditablePanel"
@@ -231,7 +231,7 @@
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
 		"bgcolor_override"		"25 25 25 255"
-		
+
 		"pin_to_sibling"		"BlueBG"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
@@ -249,12 +249,12 @@
 		"enabled"		"1"
 		"bgcolor_override"		"25 25 25 200"
 		"PaintBackgroundType"	"2"
-		
+
 		"pin_to_sibling"		"RedBG"
 		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 	}
-	
+
 	"RedTeamLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -271,12 +271,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"Red"
-		
+
 		"pin_to_sibling"		"RedBG"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
-	
+
 	"RedTeamScore"
 	{
 		"ControlName"	"CExLabel"
@@ -294,12 +294,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"Red"
-		
+
 		"pin_to_sibling"		"RedBG"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
-	
+
 	"RedTeamScoreDropshadow"
 	{
 		"ControlName"	"CExLabel"
@@ -317,12 +317,12 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"pin_to_sibling"		"RedTeamScore"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-	
+
 	"RedTeamPlayerCount"
 	{
 		"ControlName"	"CExLabel"
@@ -339,12 +339,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"Red"
-		
+
 		"pin_to_sibling"		"RedTeamLabel"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
-	
+
 	"ServerBackground"
 	{
 		"ControlName"		"EditablePanel"
@@ -358,12 +358,12 @@
 		"enabled"			"1"
 		"bgcolor_override"		"40 40 40 255"
 		"PaintBackgroundType"	"2"
-		
+
 		"pin_to_sibling"		"RedBG"
 		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 	}
-	
+
 	"ServerLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -379,12 +379,12 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"pin_to_sibling"		"ServerBackground"
 		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 	}
-	
+
 	"BluePlayerList"
 	{
 		"ControlName"	"SectionedListPanel"
@@ -401,7 +401,7 @@
 		"autoresize"	"3"
 		"linespacing"	"15"
 		"fgcolor"		"blue"
-		
+
 		"pin_to_sibling"		"BlueScoreBG"
 		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -422,7 +422,7 @@
 		"autoresize"	"3"
 		"linespacing"	"15"
 		"textcolor"		"red"
-		
+
 		"pin_to_sibling"		"RedScoreBG"
 		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -443,7 +443,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"pin_to_sibling"		"BlueScoreBG"
 		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
@@ -461,11 +461,11 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"tabPosition"	"0"	
+		"tabPosition"	"0"
 		"bgcolor_override"		"25 25 25 200"
 		"PaintBackgroundType"	"2"
 	}
-	
+
 	"ClassImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -478,9 +478,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/class_scoutred"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
-	
+
 	"ClassImageColorless"
 	{
 		"ControlName"	"ImagePanel"
@@ -493,7 +493,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/colorless/class_mercenarycolorless"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
 	"PlayerNameLabel"
 	{
@@ -525,11 +525,11 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"tabPosition"	"0"	
+		"tabPosition"	"0"
 		"fillcolor"		"127 127 127 153"
 		"PaintBackgroundType"	"0"
 	}
-	
+
 	"PlayerScoreLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -566,11 +566,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"White"
-		
+
 		"pin_to_sibling"		"ShadedBar"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
-	}											
+	}
 	"Count01"
 	{
 		"ControlName"	"CExLabel"
@@ -587,12 +587,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"White"
-		
+
 		"pin_to_sibling"		"Label01"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
-	}						
-	
+	}
+
 	// deaths
 	"Label02"
 	{
@@ -609,7 +609,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-	}						
+	}
 	"Count02"
 	{
 		"ControlName"	"CExLabel"
@@ -626,12 +626,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"White"
-		
+
 		"pin_to_sibling"		"Label01"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-	}						
-	
+	}
+
 	// assist
 	"Label03"
 	{
@@ -648,11 +648,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"pin_to_sibling"		"ShadedBar"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-	}						
+	}
 	"Count03"
 	{
 		"ControlName"	"CExLabel"
@@ -668,12 +668,12 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"pin_to_sibling"		"Label03"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-	}	
-	
+	}
+
 	// destruction
 	"Label04"
 	{
@@ -690,11 +690,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"pin_to_sibling"		"Label03"
 		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
-	}						
+	}
 	"Count04"
 	{
 		"ControlName"	"CExLabel"
@@ -710,12 +710,12 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"pin_to_sibling"		"Label04"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
-	
+
 	// captures
 	"Label05"
 	{
@@ -732,7 +732,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"pin_to_sibling"		"Label04"
 		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -752,12 +752,12 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"pin_to_sibling"		"Label05"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
-	
+
 	// defenses
 	"Label06"
 	{
@@ -774,7 +774,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"pin_to_sibling"		"Label05"
 		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -794,12 +794,12 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"pin_to_sibling"		"Label06"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
-	
+
 	// domination
 	"Label07"
 	{
@@ -816,7 +816,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"pin_to_sibling"		"Label06"
 		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -836,12 +836,12 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"pin_to_sibling"		"Label07"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
-	
+
 	// revenge
 	"Label08"
 	{
@@ -858,7 +858,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"pin_to_sibling"		"Label07"
 		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -878,12 +878,12 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"pin_to_sibling"		"Label08"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
-	
+
 	// invul
 	"Label09"
 	{
@@ -900,7 +900,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"pin_to_sibling"		"Label08"
 		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -920,12 +920,12 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"pin_to_sibling"		"Label09"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
-	
+
 	//headshot
 	"Label10"
 	{
@@ -942,7 +942,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"pin_to_sibling"		"Label09"
 		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -962,12 +962,12 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"pin_to_sibling"		"Label10"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
-	
+
 	//teleport
 	"Label11"
 	{
@@ -984,7 +984,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"pin_to_sibling"		"Label10"
 		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -1004,12 +1004,12 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"pin_to_sibling"		"Label11"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
-	
+
 	// healing
 	"Label12"
 	{
@@ -1026,7 +1026,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"pin_to_sibling"		"Label11"
 		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -1046,12 +1046,12 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"pin_to_sibling"		"Label12"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
-	
+
 	//backstab
 	"Label13"
 	{
@@ -1068,7 +1068,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"pin_to_sibling"		"Label12"
 		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -1088,12 +1088,12 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"pin_to_sibling"		"Label13"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
-	
+
 	//medal 14
 	"Label14"
 	{
@@ -1110,7 +1110,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"pin_to_sibling"		"Label13"
 		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -1130,12 +1130,12 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"pin_to_sibling"		"Label14"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
-	
+
 	//medal 15
 	"Label15"
 	{
@@ -1152,7 +1152,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"pin_to_sibling"		"Label14"
 		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -1172,12 +1172,12 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"pin_to_sibling"		"Label15"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
-	
+
 	//medal 16
 	"Label16"
 	{
@@ -1194,7 +1194,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"pin_to_sibling"		"Label15"
 		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -1214,7 +1214,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"pin_to_sibling"		"Label16"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"

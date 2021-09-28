@@ -15,7 +15,7 @@
 		"tabPosition"			"0"
 		"PaintBackgroundType"	"0"
 	}
-	
+
 	"PnlBackground"
 	{
 		"ControlName"			"EditablePanel"
@@ -68,7 +68,7 @@
 		"command"				"ReturnToGame"
 		"ActivationType"		"1"
 		"ActivationType"		"1"
-		
+
 		"pin_to_sibling"				"PnlBackground"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 		"PIN_TOPLEFT"
@@ -95,12 +95,12 @@
 		"Font"					"MainMenuFont"
 		"command"				"OpenPlayerListDialog"
 		"ActivationType"		"1"
-		
+
 		"pin_to_sibling"				"BtnReturnToGame"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 		"PIN_TOPLEFT"
 	}
-	
+
 	"BtnVote"
 	{
 		"ControlName"			"BaseModHybridButton"
@@ -122,12 +122,12 @@
 		"Font"					"MainMenuFont"
 		"command"				"callvote"
 		"ActivationType"		"1"
-		
+
 		"pin_to_sibling"				"BtnMute"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 		"PIN_TOPLEFT"
 	}
-	
+
 	"BtnServerBrowser"
 	{
 		"ControlName"			"BaseModHybridButton"
@@ -149,7 +149,7 @@
 		"Font"					"MainMenuFont"
 		"command"				"OpenServerBrowser"
 		"ActivationType"		"1"
-		
+
 		"pin_to_sibling"				"BtnVote"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 		"PIN_TOPLEFT"
@@ -176,12 +176,12 @@
 		"Font"					"MainMenuFont"
 		"command"				"CreateServer"
 		"ActivationType"		"1"
-		
+
 		"pin_to_sibling"				"BtnServerBrowser"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 		"PIN_TOPLEFT"
 	}
-	
+
 	"BtnLoadout"
 	{
 		"ControlName"			"BaseModHybridButton"
@@ -203,7 +203,7 @@
 		"Font"					"MainMenuFont"
 		"command"				"showloadoutdialog"
 		"ActivationType"		"1"
-		
+
 		"pin_to_sibling"				"BtnNewGame"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 		"PIN_TOPLEFT"
@@ -230,7 +230,7 @@
 		"Font"					"MainMenuFont"
 		"command"				"Options"
 		"ActivationType"		"1"
-		
+
 		"pin_to_sibling"				"BtnLoadout"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 		"PIN_TOPLEFT"
@@ -257,12 +257,12 @@
 		"Font"					"MainMenuFont"
 		"command"				"ExitToMainMenu"
 		"ActivationType"		"1"
-		
+
 		"pin_to_sibling"				"BtnOptions"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 		"PIN_TOPLEFT"
 	}
-	
+
 	"BtnQuit"
 	{
 		"ControlName"			"BaseModHybridButton"
@@ -285,12 +285,12 @@
 		"Font"					"MainMenuFont"
 		"command"				"QuitGame"
 		"ActivationType"		"1"
-		
+
 		"pin_to_sibling"				"BtnExitToMainMenu"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 		"PIN_TOPLEFT"
 	}
-	
+
 	"VersionLabel"
 	{
 		"ControlName"			"Label"

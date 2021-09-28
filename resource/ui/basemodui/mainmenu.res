@@ -17,7 +17,7 @@
 		"tabPosition"			"0"
 		"PaintBackgroundType"	"0"
 	}
-	
+
 	"PnlBackground"
 	{
 		"ControlName"			"EditablePanel"
@@ -30,7 +30,7 @@
 		"visible"				"1"
 		"bgcolor_override"		"0 0 0 200"
 		"PaintBackgroundType"	"2"
-	}	
+	}
 
 	"Logo"
 	{
@@ -47,7 +47,7 @@
 		"image"					"..\logo\tf2_logo"
 		"frame"					"0"
 	}
-	
+
 	"classmodelpanel"
 	{
 		"ControlName"			"DMModelPanel"
@@ -65,7 +65,7 @@
 		"fov"					"25"
 		"allow_rot"				"0"
 		"use_particle"			"1"
-		
+
 		"model"
 		{
 			"force_pos"			"1"
@@ -81,13 +81,13 @@
 			"frame_origin_z"	"0"
 			"spotlight"			"1"
 			"modelname"			"models/player/mercenary.mdl"
-			
+
 			"attached_model"
 			{
 				"modelname"		"models/weapons/w_models/w_supershotgun.mdl"
 				"skin"			"0"
 			}
-			
+
 			"animation"
 			{
 				"name"			"PRIMARY"
@@ -121,7 +121,7 @@
 			}
 		}
 	}
-	
+
 	"BtnServerBrowser"
 	{
 		"ControlName"			"BaseModHybridButton"
@@ -143,11 +143,11 @@
 		"Font"					"MainMenuFont"
 		"command"				"OpenServerBrowser"
 		"ActivationType"		"1"
-		
+
 		"pin_to_sibling"				"PnlBackground"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 		"PIN_TOPLEFT"
-	}	
+	}
 	"BtnNewGame"
 	{
 		"ControlName"			"BaseModHybridButton"
@@ -169,12 +169,12 @@
 		"Font"					"MainMenuFont"
 		"command"				"CreateServer"
 		"ActivationType"		"1"
-		
+
 		"pin_to_sibling"				"BtnServerBrowser"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 		"PIN_TOPLEFT"
 	}
-	
+
 	"BtnLoadout"
 	{
 		"ControlName"			"BaseModHybridButton"
@@ -196,7 +196,7 @@
 		"Font"					"MainMenuFont"
 		"command"				"showloadoutdialog"
 		"ActivationType"		"1"
-		
+
 		"pin_to_sibling"				"BtnNewGame"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 		"PIN_TOPLEFT"
@@ -223,12 +223,12 @@
 		"Font"					"MainMenuFont"
 		"command"				"Options"
 		"ActivationType"		"1"
-		
+
 		"pin_to_sibling"				"BtnLoadout"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 		"PIN_TOPLEFT"
 	}
-	
+
 	"BtnQuit"
 	{
 		"ControlName"			"BaseModHybridButton"
@@ -251,12 +251,12 @@
 		"Font"					"MainMenuFont"
 		"command"				"QuitGame"
 		"ActivationType"		"1"
-		
+
 		"pin_to_sibling"				"BtnOptions"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 		"PIN_TOPLEFT"
 	}
-	
+
 	"VersionLabel"
 	{
 		"ControlName"			"Label"

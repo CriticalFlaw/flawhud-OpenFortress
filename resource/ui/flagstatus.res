@@ -11,9 +11,9 @@
 		"tall"			"52"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
-	
+
 	"Briefcase"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -28,7 +28,7 @@
 		"image"			"../hud/objectives_flagpanel_briefcase"
 		"scaleImage"	"1"
 	}
-	
+
 	"StatusIcon"
 	{
 		"ControlName"	"CTFImagePanel"

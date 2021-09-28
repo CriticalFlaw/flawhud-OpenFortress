@@ -7,11 +7,11 @@
 		"labelText"		"#TF_Class_Name_Spy"
 	}
 
-	"ClassIcon"	
+	"ClassIcon"
 	{
 		"icon"			"hud_menu_spy_mercenary"
 	}
-	
+
 	"NumberLabel"
 	{
 		"labelText"		"9"

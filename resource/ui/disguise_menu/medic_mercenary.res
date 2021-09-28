@@ -6,12 +6,12 @@
 	{
 		"labelText"		"#TF_Class_Name_Medic"
 	}
-	
-	"ClassIcon"	
+
+	"ClassIcon"
 	{
 		"icon"			"hud_menu_medic_mercenary"
 	}
-	
+
 	"NumberLabel"
 	{
 		"labelText"		"7"

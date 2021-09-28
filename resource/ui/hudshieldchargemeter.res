@@ -12,7 +12,7 @@
 		"MeterFG"			"White"
 		"MeterBG"			"Gray"
 	}
-	
+
 	"ItemEffectMeterBG"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -30,7 +30,7 @@
 		"teambg_3"			"../hud/ammo_blue_bg"
 		"teambg_4"			"../hud/ammo_custom_bg"
 	}
-	
+
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -51,7 +51,7 @@
 		"brighttext"		"0"
 		"font"				"FontRegular8"
 	}
-	
+
 	"ItemEffectMeter"
 	{
 		"ControlName"		"ContinuousProgressBar"
@@ -70,7 +70,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 	}
-	
+
 	"ItemEffectMeterCount"
 	{
 		"ControlName"		"CExLabel"

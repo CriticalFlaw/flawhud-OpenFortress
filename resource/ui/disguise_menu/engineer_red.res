@@ -6,12 +6,12 @@
 	{
 		"labelText"			"#TF_Class_Name_Engineer"
 	}
-	
+
 	"ClassIcon"
 	{
 		"icon"				"hud_menu_engineer_red"
 	}
-	
+
 	"NumberLabel"
 	{
 		"labelText"			"6"

@@ -6,12 +6,12 @@
 	{
 		"labelText"		"#TF_Class_Name_Pyro"
 	}
-	
-	"ClassIcon"	
+
+	"ClassIcon"
 	{
 		"icon"			"hud_menu_pyro_mercenary"
 	}
-	
+
 	"NumberLabel"
 	{
 		"labelText"		"3"

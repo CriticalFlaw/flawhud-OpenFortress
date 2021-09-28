@@ -7,11 +7,11 @@
 		"labelText"		"#TF_Class_Name_civilian"
 	}
 
-	"ClassIcon"	
+	"ClassIcon"
 	{
 		"icon"			"hud_menu_civilian_blu"
 	}
-	
+
 	"NumberLabel"
 	{
 		"labelText"		"9"

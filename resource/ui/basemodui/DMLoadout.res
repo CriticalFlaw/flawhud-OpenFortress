@@ -11,7 +11,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 	}
-	
+
 	"CloseButton"
 	{
 		"ControlName"		"Button"
@@ -34,7 +34,7 @@
 		"Command"			"Back"
 		"proportionalToParent"	"1"
 	}
-	
+
 	"LoadoutBG"
 	{
 		"ControlName"		"ImagePanel"
@@ -80,7 +80,7 @@
 		"tileImage"			"1"
 		"proportionalToParent"	"1"
 	}
-	
+
 	"BtnCancel" [$WIN32]
 	{
 		"ControlName"		"CNB_Button"
@@ -99,7 +99,7 @@
 		"font"				"DefaultMedium"
 		"fgcolor_override"	"113 142 181 255"
 	}
-	
+
 	"CosmeticPanelToggle"
 	{
 		"ControlName" 		"CTFSelectionPanel"
@@ -119,12 +119,12 @@
 		"panel"				"CosmeticPanel"
 		"XAdjustment" 		"30"
 		"YAdjustment" 		"0"
-		
+
 		"border_idle"		"LoadoutPanelToggleBorder"
 		"border_hover" 		"LoadoutPanelToggleBorder"
 		"border_pressed" 	"LoadoutPanelToggleBorder"
-		"border_selected" 	"LoadoutPanelToggleBorder"	
-		
+		"border_selected" 	"LoadoutPanelToggleBorder"
+
 		"Button"
 		{
 			"fieldName"			"Button"
@@ -136,7 +136,7 @@
 			"zpos"				"10"
 			"proportionalToParent"	"1"
 		}
-		
+
 		"Image"
 		{
 			"image"				"loadout\hat_icon"
@@ -174,8 +174,8 @@
 		"border_idle"		"LoadoutPanelToggleBorder"
 		"border_hover" 		"LoadoutPanelToggleBorder"
 		"border_pressed" 	"LoadoutPanelToggleBorder"
-		"border_selected" 	"LoadoutPanelToggleBorder"			
-		
+		"border_selected" 	"LoadoutPanelToggleBorder"
+
 		"Button"
 		{
 			"fieldName"		"Button"
@@ -184,7 +184,7 @@
 			"xpos"			"c-50"
 			"ypos"			"c-50"
 			"visible"		"1"
-			"zpos"			"10"				
+			"zpos"			"10"
 			"proportionalToParent"	"1"
 		}
 
@@ -201,7 +201,7 @@
 			"proportionalToParent"	"1"
 		}
 	}
-	
+
 	"VisualPanelToggle"
 	{
 		"ControlName" 		"CTFSelectionPanel"
@@ -221,12 +221,12 @@
 		"proportionalToParent"	"1"
 		"XAdjustment" 		"30"
 		"YAdjustment" 		"0"
-		
+
 		"border_idle"		"LoadoutPanelToggleBorder"
 		"border_hover" 		"LoadoutPanelToggleBorder"
 		"border_pressed" 	"LoadoutPanelToggleBorder"
 		"border_selected" 	"LoadoutPanelToggleBorder"
-		
+
 		"Button"
 		{
 			"fieldName"			"Button"
@@ -238,7 +238,7 @@
 			"zpos"				"10"
 			"proportionalToParent"	"1"
 		}
-		
+
 		"Image"
 		{
 			"image"				"loadout\paintcan_icon"
@@ -252,14 +252,14 @@
 			"proportionalToParent"	"1"
 		}
 	}
-	
+
 	"MainSelectionHandle"
 	{
 		"ControlName"	"CTFSelectionManager"
 		"fieldName"		"MainSelectionHandle"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"Panels"
 		{
 			"CosmeticPanelToggle"	"1"
@@ -267,7 +267,7 @@
 			"VisualPanelToggle"		"1"
 		}
 	}
-	
+
 	"CosmeticPanel"
 	{
 		"ControlName"		"EditablePanel"
@@ -279,7 +279,7 @@
 		"zpos"				"4"
 		"visible"			"1"
 		"enabled"			"1"
-		
+
 		"ItemHeader"
 		{
 			"ControlName"		"CTFLoadoutHeader"
@@ -292,7 +292,7 @@
 			"visible"			"1"
 			"enabled"			"1"
 			"proportionalToParent"	"1"
-			
+
 			"ScrollBar"
 			{
 				"ControlName"		"ScrollBar_Horizontal"
@@ -306,7 +306,7 @@
 				"enabled"			"0"
 				"proportionalToParent"	"1"
 				"fgcolor"			"255 255 255 255"
-				
+
 				"Slider"
 				{
 					"fgcolor"		"0 255 255 255"
@@ -352,7 +352,7 @@
 			"enabled"			"1"
 			"CollumnSpacing"	"20"
 			"RowSpacing"	 	"10"
-			
+
 			"ScrollBar"
 			{
 				"ControlName"		"ScrollBar"
@@ -367,7 +367,7 @@
 				"proportionalToParent"	"1"
 				"fgcolor"			"255 255 255 255"
 			}
-			
+
 			"ItemTemplate"
 			{
 				"fieldName"			"ItemTemplate"
@@ -383,7 +383,7 @@
 				"border_hover" 		"ItemOutlineHoverover"
 				"border_pressed" 	"ItemOutlineIdle"
 				"border_selected" 	"ItemOutlineSelected"
-				
+
 				"Button"
 				{
 					"fieldName"			"Button"
@@ -395,7 +395,7 @@
 					"zpos"				"10"
 					"proportionalToParent"	"1"
 				}
-				
+
 				"ItemImage"
 				{
 					"fieldName"			"ItemImage"
@@ -412,7 +412,7 @@
 			}
 		}
 	}
-	
+
 	"ArsenalPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -424,7 +424,7 @@
 		"zpos"			"4"
 		"visible"		"0"
 		"enabled"		"1"
-		
+
 		"Header"
 		{
 			"ControlName"	"EditablePanel"
@@ -438,9 +438,9 @@
 			"enabled"		"1"
 			"border" 		"LoadoutThickBorder"
 			"proportionalToParent"	"1"
-			
+
 			"HexLabel"
-			{	
+			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"HexLabel"
 				"xpos"			"5"
@@ -454,9 +454,9 @@
 				"proportionalToParent"	"1"
 			}
 		}
-		
+
 		"Disclaimer"
-		{	
+		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Disclaimer"
 			"xpos"			"20"
@@ -471,7 +471,7 @@
 			"textAlignment"	"west"
 			"proportionalToParent"	"1"
 		}
-		
+
 		"PrimaryToggle"
 		{
 			"ControlName" 	"CTFSelectionPanel"
@@ -496,7 +496,7 @@
 			"border_hover" 		"ItemOutlineHoverover"
 			"border_pressed" 	"ItemOutlineIdle"
 			"border_selected" 	"ItemOutlineSelected"
-			
+
 			"Button"
 			{
 				"fieldName"		"Button"
@@ -505,7 +505,7 @@
 				"xpos"			"c-40"
 				"ypos"			"c-40"
 				"visible"		"1"
-				"zpos"			"10"		
+				"zpos"			"10"
 				"proportionalToParent"	"1"
 			}
 
@@ -522,7 +522,7 @@
 				"proportionalToParent"	"1"
 			}
 		}
-		
+
 		"SecondaryToggle"
 		{
 			"ControlName" 	"CTFSelectionPanel"
@@ -546,8 +546,8 @@
 			"border_idle"		"ItemOutlineIdle"
 			"border_hover" 		"ItemOutlineHoverover"
 			"border_pressed" 	"ItemOutlineIdle"
-			"border_selected" 	"ItemOutlineSelected"	
-			
+			"border_selected" 	"ItemOutlineSelected"
+
 			"Button"
 			{
 				"fieldName"		"Button"
@@ -556,7 +556,7 @@
 				"xpos"			"c-50"
 				"ypos"			"c-50"
 				"visible"		"1"
-				"zpos"			"10"				
+				"zpos"			"10"
 				"proportionalToParent"	"1"
 			}
 
@@ -573,7 +573,7 @@
 				"proportionalToParent"	"1"
 			}
 		}
-		
+
 		"MeleeToggle"
 		{
 			"ControlName" 	"CTFSelectionPanel"
@@ -597,8 +597,8 @@
 			"border_idle"		"ItemOutlineIdle"
 			"border_hover" 		"ItemOutlineHoverover"
 			"border_pressed" 	"ItemOutlineIdle"
-			"border_selected" 	"ItemOutlineSelected"	
-			
+			"border_selected" 	"ItemOutlineSelected"
+
 			"Button"
 			{
 				"fieldName"		"Button"
@@ -607,7 +607,7 @@
 				"xpos"			"c-50"
 				"ypos"			"c-50"
 				"visible"		"1"
-				"zpos"			"10"				
+				"zpos"			"10"
 				"proportionalToParent"	"1"
 			}
 
@@ -624,14 +624,14 @@
 				"proportionalToParent"	"1"
 			}
 		}
-		
+
 		"WeaponSelectionHandle"
 		{
 			"ControlName"	"CTFSelectionManager"
 			"fieldName"		"WeaponSelectionHandle"
 			"visible"		"1"
 			"enabled"		"1"
-			
+
 			"Panels"
 			{
 				"PrimaryToggle"	"1"
@@ -655,7 +655,7 @@
 			"RowSpacing"	 "17"
 			"element_width"  "82"
 			"element_height" "60"
-			
+
 			"ScrollBar"
 			{
 				"ControlName"	"ScrollBar"
@@ -672,7 +672,7 @@
 			}
 		}
 	}
-	
+
 	"VisualPanel"
 	{
 		"ControlName"		"EditablePanel"
@@ -684,7 +684,7 @@
 		"zpos"				"4"
 		"visible"			"0"
 		"enabled"			"1"
-		
+
 		"Header"
 		{
 			"ControlName"		"EditablePanel"
@@ -698,9 +698,9 @@
 			"enabled"			"1"
 			"border" 			"LoadoutThickBorder"
 			"proportionalToParent"	"1"
-			
+
 			"HexLabel"
-			{	
+			{
 				"ControlName"		"CExLabel"
 				"fieldName"			"HexLabel"
 				"xpos"				"5"
@@ -744,7 +744,7 @@
 			"RowSpacing"		"10"
 			"element_width"		"50"
 			"element_height"	"50"
-			
+
 			"ScrollBar"
 			{
 				"ControlName"		"ScrollBar"
@@ -790,7 +790,7 @@
 			"RowSpacing"	 	"10"
 			"element_width"  	"50"
 			"element_height" 	"50"
-			
+
 			"ScrollBar"
 			{
 				"ControlName"		"ScrollBar"
@@ -806,7 +806,7 @@
 				"proportionalToParent"	"1"
 			}
 		}
-		
+
 		"ColorPanel"
 		{
 			"ControlName"		"CTFColorPanel"
@@ -819,7 +819,7 @@
 			"visible"			"1"
 			"enabled"			"1"
 			"proportionalToParent" "1"
-			
+
 			"RGBToggle"
 			{
 				"ControlName"	 	"CCvarToggleCheckButton"
@@ -905,7 +905,7 @@
 				"pin_corner_to_sibling"	"0"
 				"pin_to_sibling_corner"	"0"
 			}
-			
+
 			"HueLabel"
 			{
 				"ControlName"		"CExLabel"
@@ -920,7 +920,7 @@
 				"textAlignment"		"west"
 				"proportionalToParent"	"1"
 			}
-			
+
 			"Hue"
 			{
 				"ControlName" 		"CTFColorSlider"
@@ -964,9 +964,9 @@
 				"pin_corner_to_sibling"		"0"
 				"pin_to_sibling_corner"		"0"
 			}
-			
+
 			"SaturationLabel"
-			{	
+			{
 				"ControlName"		"CExLabel"
 				"fieldName"			"SaturationLabel"
 				"xpos"				"c-125"
@@ -979,7 +979,7 @@
 				"textAlignment"		"west"
 				"proportionalToParent"	"1"
 			}
-			
+
 			"Saturation"
 			{
 				"ControlName" 		"CTFColorSlider"
@@ -1023,7 +1023,7 @@
 				"pin_corner_to_sibling"		"0"
 				"pin_to_sibling_corner"		"0"
 			}
-			
+
 			"BrightnessLabel"
 			{
 				"ControlName"		"CExLabel"
@@ -1038,7 +1038,7 @@
 				"textAlignment"		"west"
 				"proportionalToParent"	"1"
 			}
-			
+
 			"Brightness"
 			{
 				"ControlName"	 	"CTFColorSlider"
@@ -1081,9 +1081,9 @@
 				"pin_corner_to_sibling"	"0"
 				"pin_to_sibling_corner"	"0"
 			}
-			
+
 			"RedLabel"
-			{	
+			{
 				"ControlName"		"CExLabel"
 				"fieldName"			"RedLabel"
 				"xpos"				"c-125"
@@ -1097,7 +1097,7 @@
 				"textAlignment"		"west"
 				"proportionalToParent"	"1"
 			}
-			
+
 			"Red"
 			{
 				"ControlName" 		"CTFColorSlider"
@@ -1141,9 +1141,9 @@
 				"pin_corner_to_sibling"	"0"
 				"pin_to_sibling_corner"	"0"
 			}
-			
+
 			"GreenLabel"
-			{	
+			{
 				"ControlName"		"CExLabel"
 				"fieldName"			"GreenLabel"
 				"xpos"				"c-130"
@@ -1157,7 +1157,7 @@
 				"textAlignment"		"west"
 				"proportionalToParent"	"1"
 			}
-			
+
 			"Green"
 			{
 				"ControlName"	 	"CTFColorSlider"
@@ -1201,7 +1201,7 @@
 				"pin_corner_to_sibling"	"0"
 				"pin_to_sibling_corner"	"0"
 			}
-			
+
 			"BlueLabel"
 			{
 				"ControlName"		"CExLabel"
@@ -1217,7 +1217,7 @@
 				"visible"			"0"
 				"proportionalToParent"	"1"
 			}
-			
+
 			"Blue"
 			{
 				"ControlName" 		"CTFColorSlider"
@@ -1237,7 +1237,7 @@
 			}
 		}
 	}
-	
+
 	"BrightSkinsToggle"
 	{
 		"ControlName"		"CTFCommandButton"
@@ -1253,13 +1253,13 @@
 		"border_idle"		"ItemOutlineIdle"
 		"border_hover" 		"BrightOutlineHoverover"
 		"border_pressed" 	"ItemOutlineIdle"
-		"border_selected" 	"BrightOutlineSelected"	
-		
+		"border_selected" 	"BrightOutlineSelected"
+
 		"command"			"of_tennisball 1"
 		"unselect_command" 	"of_tennisball 0"
 		"convref"			"of_tennisball" // optional, if inputed sets the button to either selected or unselected depending on the convar
 		"proportionalToParent" "1"
-		
+
 		"Button"
 		{
 			"fieldName"			"Button"
@@ -1271,7 +1271,7 @@
 			"zpos"				"10"
 			"proportionalToParent"	"1"
 		}
-		
+
 		"TennisImage"
 		{
 			"ControlName"		"CTFImagePanel"
@@ -1287,7 +1287,7 @@
 			"proportionalToParent"	"1"
 		}
 	}
-	
+
 	"classmodelpanel"
 	{
 		"ControlName"		"DMModelPanel"
@@ -1305,7 +1305,7 @@
 		"fov"				"25"
 		"allow_rot"			"1"
 		"use_particle"		"1"
-		
+
 		"model"
 		{
 			"force_pos"			"1"
@@ -1321,7 +1321,7 @@
 			"frame_origin_z"	"0"
 			"spotlight"			"1"
 			"modelname"			"models/player/mercenary.mdl"
-			
+
 			"animation"
 			{
 				"name"			"PRIMARY"

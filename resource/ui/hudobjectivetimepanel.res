@@ -57,7 +57,7 @@
 		"fieldName"			"TimePanelProgressBar"
 		"xpos"				"67"
 		"ypos"				"16"
-		"zpos"				"4"	
+		"zpos"				"4"
 		"wide"				"20"
 		"tall"				"20"
 		"visible"			"0"
@@ -69,7 +69,7 @@
 		"color_warning"		"TimerProgress.Warning"
 		"percent_warning"	"0.75"
 	}
-	
+
 	"WaitingForPlayersLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -94,7 +94,7 @@
 		"fieldName"			"WaitingForPlayersBG"
 		"xpos"				"9999"
 	}
-	
+
 	"OvertimeLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -119,7 +119,7 @@
 		"fieldName"			"OvertimeBG"
 		"xpos"				"9999"
 	}
-	
+
 	"SuddenDeathLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -144,7 +144,7 @@
 		"fieldName"			"SuddenDeathBG"
 		"xpos"				"9999"
 	}
-	
+
 	"SetupLabel"
 	{
 		"ControlName"		"CExLabel"

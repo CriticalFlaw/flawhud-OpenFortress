@@ -15,7 +15,7 @@
 		"tabPosition"		"0"
 		"settitlebarvisible" "0"
 	}
-	
+
 	"TFMessageTitle"
 	{
 		"ControlName"		"CExLabel"
@@ -36,7 +36,7 @@
 		"font"				"ChalkboardTitle"
 		"fgcolor"			"White"
 	}
-	
+
 	"TextMessage"
 	{
 		"ControlName"		"TextEntry"
@@ -44,7 +44,7 @@
 		"visible"			"0"
 		"enabled"			"0"
 	}
-	
+
 	"TFTextMessage"
 	{
 		"ControlName"		"CExRichText"
@@ -63,7 +63,7 @@
 		"textAlignment"		"northwest"
 		"fgcolor"			"Gray"
 	}
-	
+
 	"HTMLMessage"
 	{
 		"ControlName"		"HTML"
@@ -80,7 +80,7 @@
 		"tabPosition"		"0"
 		"paintborder"		"0"
 	}
-	
+
 	"ok"
 	{
 		"ControlName"		"CExButton"
@@ -105,14 +105,14 @@
 		"font"				"MenuSmallFont"
 		"paintbackground"	"0"
 	}
-	
+
 	"MenuBG"
 	{
 		"ControlName"		"CModelPanel"
 		"fieldName"			"MenuBG"
 		"xpos"				"9999"
 	}
-	
+
 	"ShadedBar"
 	{
 		"ControlName"		"ImagePanel"
@@ -126,11 +126,11 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"tabPosition"		"0"	
+		"tabPosition"		"0"
 		"fillcolor"			"0 0 0 230"
 		"PaintBackgroundType"	"0"
 	}
-	
+
 	"MessageTitle"
 	{
 		"ControlName"		"Label"

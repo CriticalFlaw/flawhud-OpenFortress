@@ -1,6 +1,6 @@
 "Resource/UI/disguise_menu/HudMenuSpyDisguise.res"
 {
-	"MainBackground"	
+	"MainBackground"
 	{
 		"ControlName"		"CIconPanel"
 		"fieldName"			"MainBackground"
@@ -15,7 +15,7 @@
 		"icon"				"hud_menu_bg"
 		"iconColor"			"255 255 255 0"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -35,9 +35,9 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 	}
-	
+
 	"TitleLabelDropshadow"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"TitleLabelDropshadow"
 		"font"				"FontBold22"
@@ -55,12 +55,12 @@
 		"textAlignment"		"center"
 		"dulltext"			"1"
 		"brighttext"		"0"
-		
+
 		"pin_to_sibling"		"TitleLabel"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
-	
+
 	// minus key toggles team
 	"MinusKeyImage"
 	{
@@ -74,9 +74,9 @@
 		"visible"			"0"
 		"enabled"			"0"
 		"image"				"../hud/ico_key_minus"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 	}
-	
+
 	"ToggleLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -96,7 +96,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 	}
-	
+
 	"CancelLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -130,7 +130,7 @@
 		"bgcolor_override"	"HudBlack"
 		"PaintBackgroundType"	"2"
 	}
-	
+
 	"class_item_red_1"
 	{
 		"ControlName"		"EditablePanel"
@@ -142,7 +142,7 @@
 		"tall"				"16"
 		"visible"			"1"
 	}
-	
+
 	"class_item_blue_1"
 	{
 		"ControlName"		"EditablePanel"
@@ -154,7 +154,7 @@
 		"tall"				"16"
 		"visible"			"1"
 	}
-	
+
 	"class_item_mercenary_1"
 	{
 		"ControlName"		"EditablePanel"
@@ -166,7 +166,7 @@
 		"tall"				"16"
 		"visible"			"1"
 	}
-	
+
 	"class_item_red_2"
 	{
 		"ControlName"		"EditablePanel"
@@ -178,7 +178,7 @@
 		"tall"				"16"
 		"visible"			"1"
 	}
-	
+
 	"class_item_blue_2"
 	{
 		"ControlName"		"EditablePanel"
@@ -190,7 +190,7 @@
 		"tall"				"16"
 		"visible"			"1"
 	}
-	
+
 	"class_item_mercenary_2"
 	{
 		"ControlName"		"EditablePanel"
@@ -202,7 +202,7 @@
 		"tall"				"16"
 		"visible"			"1"
 	}
-	
+
 	"class_item_red_3"
 	{
 		"ControlName"		"EditablePanel"
@@ -214,7 +214,7 @@
 		"tall"				"16"
 		"visible"			"1"
 	}
-	
+
 	"class_item_blue_3"
 	{
 		"ControlName"		"EditablePanel"
@@ -226,7 +226,7 @@
 		"tall"				"16"
 		"visible"			"1"
 	}
-	
+
 	"class_item_mercenary_3"
 	{
 		"ControlName"		"EditablePanel"
@@ -238,7 +238,7 @@
 		"tall"				"16"
 		"visible"			"1"
 	}
-	
+
 	"class_item_red_4"
 	{
 		"ControlName"		"EditablePanel"
@@ -250,7 +250,7 @@
 		"tall"				"16"
 		"visible"			"1"
 	}
-	
+
 	"class_item_blue_4"
 	{
 		"ControlName"		"EditablePanel"
@@ -262,7 +262,7 @@
 		"tall"				"16"
 		"visible"			"1"
 	}
-	
+
 	"class_item_mercenary_4"
 	{
 		"ControlName"		"EditablePanel"
@@ -274,7 +274,7 @@
 		"tall"				"16"
 		"visible"			"1"
 	}
-	
+
 	"class_item_red_5"
 	{
 		"ControlName"		"EditablePanel"
@@ -286,7 +286,7 @@
 		"tall"				"16"
 		"visible"			"1"
 	}
-	
+
 	"class_item_blue_5"
 	{
 		"ControlName"		"EditablePanel"
@@ -298,7 +298,7 @@
 		"tall"				"16"
 		"visible"			"1"
 	}
-	
+
 	"class_item_mercenary_5"
 	{
 		"ControlName"		"EditablePanel"
@@ -310,7 +310,7 @@
 		"tall"				"16"
 		"visible"			"1"
 	}
-	
+
 	"class_item_red_6"
 	{
 		"ControlName"		"EditablePanel"
@@ -322,7 +322,7 @@
 		"tall"				"16"
 		"visible"			"1"
 	}
-	
+
 	"class_item_blue_6"
 	{
 		"ControlName"		"EditablePanel"
@@ -334,7 +334,7 @@
 		"tall"				"16"
 		"visible"			"1"
 	}
-	
+
 	"class_item_mercenary_6"
 	{
 		"ControlName"		"EditablePanel"
@@ -346,7 +346,7 @@
 		"tall"				"16"
 		"visible"			"1"
 	}
-	
+
 	"class_item_red_7"
 	{
 		"ControlName"		"EditablePanel"
@@ -358,7 +358,7 @@
 		"tall"				"16"
 		"visible"			"1"
 	}
-	
+
 	"class_item_blue_7"
 	{
 		"ControlName"		"EditablePanel"
@@ -370,7 +370,7 @@
 		"tall"				"16"
 		"visible"			"1"
 	}
-	
+
 	"class_item_mercenary_7"
 	{
 		"ControlName"		"EditablePanel"
@@ -382,7 +382,7 @@
 		"tall"				"16"
 		"visible"			"1"
 	}
-	
+
 	"class_item_red_8"
 	{
 		"ControlName"		"EditablePanel"
@@ -394,7 +394,7 @@
 		"tall"				"16"
 		"visible"			"1"
 	}
-	
+
 	"class_item_blue_8"
 	{
 		"ControlName"		"EditablePanel"
@@ -406,7 +406,7 @@
 		"tall"				"16"
 		"visible"			"1"
 	}
-	
+
 	"class_item_mercenary_8"
 	{
 		"ControlName"		"EditablePanel"
@@ -418,7 +418,7 @@
 		"tall"				"16"
 		"visible"			"1"
 	}
-	
+
 	"class_item_red_9"
 	{
 		"ControlName"		"EditablePanel"
@@ -430,7 +430,7 @@
 		"tall"				"16"
 		"visible"			"1"
 	}
-	
+
 	"class_item_blue_9"
 	{
 		"ControlName"		"EditablePanel"
@@ -442,7 +442,7 @@
 		"tall"				"16"
 		"visible"			"1"
 	}
-	
+
 	"class_item_mercenary_9"
 	{
 		"ControlName"		"EditablePanel"
@@ -454,7 +454,7 @@
 		"tall"				"16"
 		"visible"			"1"
 	}
-	
+
 	"class_item_red_10"
 	{
 		"ControlName"		"EditablePanel"
@@ -466,7 +466,7 @@
 		"tall"				"16"
 		"visible"			"1"
 	}
-	
+
 	"class_item_blue_10"
 	{
 		"ControlName"		"EditablePanel"
@@ -478,7 +478,7 @@
 		"tall"				"16"
 		"visible"			"1"
 	}
-	
+
 	"class_item_mercenary_10"
 	{
 		"ControlName"		"EditablePanel"
@@ -490,7 +490,7 @@
 		"tall"				"16"
 		"visible"			"1"
 	}
-	
+
 	"class_item_red_11"
 	{
 		"ControlName"		"EditablePanel"
@@ -502,7 +502,7 @@
 		"tall"				"16"
 		"visible"			"1"
 	}
-	
+
 	"class_item_blue_11"
 	{
 		"ControlName"		"EditablePanel"
@@ -514,7 +514,7 @@
 		"tall"				"16"
 		"visible"			"1"
 	}
-	
+
 	"class_item_mercenary_11"
 	{
 		"ControlName"		"EditablePanel"

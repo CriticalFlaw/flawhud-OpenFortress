@@ -14,7 +14,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"MapInfoTitle"
 	{
 		"ControlName"	"CExLabel"
@@ -33,7 +33,7 @@
 		"font"			"ChalkboardTitle"
 		"fgcolor"		"White"
 	}
-	
+
 	"MapInfoType"
 	{
 		"ControlName"	"CExLabel"
@@ -52,7 +52,7 @@
 		"font"			"ChalkboardText"
 		"fgcolor"		"White"
 	}
-	
+
 	"MapInfoText"
 	{
 		"ControlName"	"CExRichText"
@@ -71,7 +71,7 @@
 		"textAlignment"	"center"
 		"fgcolor"		"White"
 	}
-	
+
 	"MapImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -86,7 +86,7 @@
 		"image"			""
 		"scaleImage"	"1"
 	}
-	
+
 	"MapInfoContinue"
 	{
 		"ControlName"	"CExButton"
@@ -110,14 +110,14 @@
 		"fgcolor"		"Black"
 		"paintbackground"	"0"
 	}
-	
+
 	"MapInfoWatchIntro"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoWatchIntro"
 		"xpos"			"9999"
 	}
-	
+
 	"MapInfoBack"
 	{
 		"ControlName"	"CExButton"
@@ -140,14 +140,14 @@
 		"fgcolor"		"Black"
 		"paintbackground"	"0"
 	}
-	
+
 	"MenuBG"
 	{
 		"ControlName"	"CModelPanel"
 		"fieldName"		"MenuBG"
 		"xpos"			"9999"
 	}
-	
+
 	"ShadedBar"
 	{
 		"ControlName"	"ImagePanel"

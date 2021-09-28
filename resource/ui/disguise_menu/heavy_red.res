@@ -20,7 +20,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 	}
-	
+
 	"ClassIcon"
 	{
 		"ControlName"		"CIconPanel"
@@ -35,7 +35,7 @@
 		"scaleImage"		"1"
 		"icon"				"hud_menu_heavy_red"
 	}
-	
+
 	"NumberBg"
 	{
 		"ControlName"		"CIconPanel"
@@ -51,7 +51,7 @@
 		"icon"				"ico_key_blank"
 		"iconColor"			"255 255 255 255"
 	}
-	
+
 	"NumberLabel"
 	{
 		"ControlName"		"CExLabel"

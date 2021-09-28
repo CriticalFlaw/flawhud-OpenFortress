@@ -6,14 +6,14 @@
 		"fieldName"				"LblTitle"
 		"fgcolor_override"		"255 255 255 255"
 	}
-	
+
 	"LblMessage"
 	{
 		"ControlName"			"Label"
 		"fieldName"				"LblMessage"
 		"fgcolor_override"		"255 255 255 255"
 	}
-	
+
 	"GenericConfirmation"
 	{
 		"ControlName"			"Frame"
@@ -26,7 +26,7 @@
 		"border"				"ReplayFatLineBorderOpaque"
 		"bgcolor"				"0 0 0 255"
 	}
-	
+
 	"BtnOK"
 	{
 		"ControlName"			"CNB_Button"
@@ -44,7 +44,7 @@
 		"command"				"OK"
 		"font"					"HudFontSmallBold"
 	}
-	
+
 	"BtnCancel"
 	{
 		"ControlName"			"CNB_Button"

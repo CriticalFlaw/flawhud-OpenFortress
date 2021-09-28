@@ -6,12 +6,12 @@
 	{
 		"labelText"		"#TF_Class_Name_mercenary"
 	}
-	
-	"ClassIcon"	
+
+	"ClassIcon"
 	{
 		"icon"			"hud_menu_mercenary_red"
 	}
-	
+
 	"NumberLabel"
 	{
 		"labelText"		"0"

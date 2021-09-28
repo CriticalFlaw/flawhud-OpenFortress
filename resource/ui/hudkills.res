@@ -11,7 +11,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 	}
-	
+
 	"MainBG"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -31,7 +31,7 @@
 		"teambg_3"			"../hud/death_panel_blue_bg"
 		"teambg_4"			"../hud/death_panel_purple_bg"
 	}
-	
+
 	"ShadedBarP1"
 	{
 		"ControlName"		"EditablePanel"
@@ -44,7 +44,7 @@
 		"bgcolor_override"	"0 0 0 153"
 		"PaintBackgroundType"	"2"
 	}
-	
+
 	"ShadedBarP2"
 	{
 		"ControlName"		"EditablePanel"
@@ -57,7 +57,7 @@
 		"bgcolor_override"	"0 0 0 153"
 		"PaintBackgroundType"	"2"
 	}
-	
+
 	"PlayingToLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -72,7 +72,7 @@
 		"tall"				"50"
 		"proportionalToParent"	"1"
 	}
-	
+
 	"AvatarImage"
 	{
 		"ControlName"		"CAvatarImagePanel"
@@ -83,10 +83,10 @@
 		"wide"				"18"
 		"tall"				"18"
 		"image"				""
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 		//"color_outline"	"52 48 45 255"
 	}
-	
+
 	"PlayerNameLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -102,7 +102,7 @@
 		"autoResize"		"0"
 		"pinCorner"			"0"
 	}
-	
+
 	"KillsLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -118,7 +118,7 @@
 		"autoResize"		"0"
 		"pinCorner"			"0"
 	}
-	
+
 	"TopAvatarImage"
 	{
 		"ControlName"		"CAvatarImagePanel"
@@ -129,9 +129,9 @@
 		"wide"				"18"
 		"tall"				"18"
 		"image"				""
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 	}
-	
+
 	"TopPlayerNameLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -147,7 +147,7 @@
 		"autoResize"		"0"
 		"pinCorner"			"0"
 	}
-	
+
 	"TopKillsLabel"
 	{
 		"ControlName"		"CExLabel"

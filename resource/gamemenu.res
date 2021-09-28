@@ -20,7 +20,7 @@
 	}
 	"4"
 	{
-		"label" "#GameUI_GameMenu_FindServers" 
+		"label" "#GameUI_GameMenu_FindServers"
 		"command" "OpenServerBrowser"
 	}
 	"5"

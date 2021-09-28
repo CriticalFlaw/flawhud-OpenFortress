@@ -9,7 +9,7 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_blu"
 	}
-	
+
 	"cpiconblulock"
 	{
 		"ControlName"	"ImagePanel"
@@ -18,8 +18,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_blu_locked"
-	}	
-	
+	}
+
 	"cpiconredunlock"
 	{
 		"ControlName"	"ImagePanel"
@@ -29,7 +29,7 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_red"
 	}
-	
+
 	"cpiconredlock"
 	{
 		"ControlName"	"ImagePanel"
@@ -38,8 +38,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_red_locked"
-	}	
-	
+	}
+
 	"cpiconneutralunlock"
 	{
 		"ControlName"	"ImagePanel"
@@ -48,8 +48,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_neutral"
-	}	
-	
+	}
+
 	"cpiconneutrallock"
 	{
 		"ControlName"	"ImagePanel"

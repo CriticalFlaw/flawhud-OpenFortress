@@ -17,7 +17,7 @@
 		"teambg_3"			"../hud/medic_charge_blue_bg"
 		"teambg_4"			"../hud/medic_charge_purple_bg"
 	}
-	
+
 	"ChargeLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -39,7 +39,7 @@
 		"font"				"FontBold22Outline"
 		"fgcolor"			"243 243 243 255"
 	}
-	
+
 	"ChargeMeter"
 	{
 		"ControlName"		"ContinuousProgressBar"
@@ -61,12 +61,12 @@
 		"bgcolor_override"	"ProgressBackground"
 		"paintborder"		"1"
 		"border"			"NoBorder"
-		
+
 		"pin_to_sibling"		"ChargeLabel"
 		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 	}
-	
+
 	"HealthClusterIcon"
 	{
 		"ControlName"	"ImagePanel"
@@ -78,6 +78,6 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/ico_health_cluster"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
 }

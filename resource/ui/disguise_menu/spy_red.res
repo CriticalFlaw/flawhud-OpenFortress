@@ -6,12 +6,12 @@
 	{
 		"labelText"			"#TF_Class_Name_Spy"
 	}
-	
+
 	"ClassIcon"
 	{
 		"icon"				"hud_menu_spy_red"
 	}
-	
+
 	"NumberLabel"
 	{
 		"labelText"			"9"

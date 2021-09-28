@@ -11,7 +11,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
-	
+
 	"topbar"
 	{
 		"ControlName"	"Panel"
@@ -26,7 +26,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
-	
+
 	"BottomBar"
 	{
 		"ControlName"	"Frame"
@@ -38,7 +38,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	
+
 	"bottombarblank"
 	{
 		"ControlName"	"Panel"
@@ -53,7 +53,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
-	
+
 	"ReinforcementsLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -70,7 +70,7 @@
 		"textAlignment"	"center"
 		"font"			"FontRegular15"
 	}
-	
+
 	"MapLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -88,7 +88,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"SwitchCamModeKeyLabel"
 		"xpos"			"9999"
-		
+
 	}
 	"SwitchCamModeLabel"
 	{
