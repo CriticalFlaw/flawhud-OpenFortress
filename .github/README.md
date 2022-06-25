@@ -24,7 +24,7 @@
 
 <!-- INSTALLATION -->
 ## Installation
-1. Download the latest version of flawhud-OF on [GitHub][download-link].
+1. Download the latest version of flawhud-OF on [GitHub][download-link] or [GameBanana][gamebanana-link].
 2. Extract the downloaded file contents into your `steamapps\sourcemods\open_fortress\custom` directory.
 
 <!-- SUPPORT -->
@@ -80,4 +80,4 @@ Thank you to everyone who supported this project through [GitHub Sponsors][spons
 [sponsors-link]: https://github.com/sponsors/CriticalFlaw
 [issues-link]: https://github.com/CriticalFlaw/flawhud-OpenFortress/issues
 [discord-link]: https://discord.gg/hTdtK9vBhE
-[release-link]:https://github.com/CriticalFlaw/flawhud-OpenFortress/releases/latest
+[gamebanana-link]: https://gamebanana.com/mods/34371
