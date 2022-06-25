@@ -1,35 +1,30 @@
 <!-- TITLE -->
-![banner](https://user-images.githubusercontent.com/6818236/123499065-fba2e480-d601-11eb-96e4-e0879c7b2fbd.png)
+![banner](https://user-images.githubusercontent.com/6818236/175778495-c4b11439-499c-4553-86f3-1e19e4f6dcda.png)
 <p align="center">
   <p align="center">
-    Custom HUD for Open Fortress, with the focus on minimalistic design and dark themed colors.
+    Modification of flawhud for Open Fortress, with the focus on minimalistic design and dark themed colors.
     <br />
     <a href="https://github.com/CriticalFlaw/flawhud-OpenFortress/issues">Issue Tracker</a>
-    ·
+    Â·
     <a href="https://discord.gg/hTdtK9vBhE">Discord</a>
-    ·
-    <a href="https://imgur.com/a/UyGCSrb">Screenshots</a>
+    Â·
+    <a href="https://imgur.com/a/Uhd9wA5">Screenshots</a>
   </p>
 </p>
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
-- [Table of Contents](#table-of-contents)
 - [Installation](#installation)
 - [Support](#support)
-- [CastingEssentials](#castingessentials)
 - [Customizations](#customizations)
   - [Crosshair](#crosshair)
   - [Code Pro Fonts](#code-pro-fonts)
-  - [Favorite Server](#favorite-server)
-  - [Transparent Viewmodels](#transparent-viewmodels)
-  - [Streamer Mode](#streamer-mode)
 - [Acknowledgements](#acknowledgements)
 - [Sponsors](#sponsors)
 
 <!-- INSTALLATION -->
 ## Installation
-1. Download the latest version of flawhud on [GitHub][download-link] or on the [HUDS.tf](https://huds.tf/site/s-FlawHUD).
+1. Download the latest version of flawhud-OF on [GitHub][download-link].
 2. Extract the downloaded file contents into your `steamapps\sourcemods\open_fortress\custom` directory.
 
 <!-- SUPPORT -->
@@ -51,12 +46,6 @@ To disable the hitmarker, open `flawhud-OpenFortress\scripts\hudanimations_manif
 
 ### Code Pro Fonts
 To enable the Code Pro fonts, open `flawhud-OpenFortress\resource\clientscheme.res` in a text editor and add **_pro** as instructed in the file.
-
-### Favorite Server
-To setup a shortcut to your favorite server, open `flawhud-OpenFortress\resource\gamemenu.res` and under **HomeServerButton** enter the connection string to your preferred server as instructed.
-
-### Transparent Viewmodels
-To enable transparent viewmodels, you must first install the mastercomfig's Transparent Viewmodels addon or update your graphics configs to work with this feature. Then open `flawhud\scripts\hudlayout.res` and under **TransparentViewmodels** change the values of **visible** and **enabled** from 0 to 1. For more information, read the the TeamFortress.TV [thread][tftv-link].
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
@@ -91,3 +80,4 @@ Thank you to everyone who supported this project through [GitHub Sponsors][spons
 [sponsors-link]: https://github.com/sponsors/CriticalFlaw
 [issues-link]: https://github.com/CriticalFlaw/flawhud-OpenFortress/issues
 [discord-link]: https://discord.gg/hTdtK9vBhE
+[release-link]:https://github.com/CriticalFlaw/flawhud-OpenFortress/releases/latest
