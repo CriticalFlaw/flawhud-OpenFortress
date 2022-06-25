@@ -59,7 +59,7 @@
 			"Command"			"joinclass scout"
 			"Default"			"0"
 			"font"				"FontBold20"
-			"textinsetx"		"65"
+			"textinsetx"		"85"
 			"paintbackground"	"1"
 		
 			"defaultBgColor_override" 	"TransparentBlack"
@@ -121,7 +121,7 @@
 			"Command"					"joinclass soldier"
 			"Default"					"0"
 			"font"						"FontBold20"
-			"textinsetx"				"65"
+			"textinsetx"				"85"
 			"paintbackground"			"1"
 			
 			"defaultBgColor_override" 	"TransparentBlack"
@@ -183,7 +183,7 @@
 			"Command"					"joinclass pyro"
 			"Default"					"0"
 			"font"						"FontBold20"
-			"textinsetx"				"65"
+			"textinsetx"				"85"
 			"paintbackground"			"1"
 			
 			"defaultBgColor_override" 	"TransparentBlack"
@@ -267,7 +267,7 @@
 			"Command"			"joinclass demoman"
 			"Default"			"0"
 			"font"				"FontBold20"
-			"textinsetx"		"65"
+			"textinsetx"		"85"
 			"paintbackground"	"1"
 		
 			"defaultBgColor_override" 	"TransparentBlack"
@@ -329,7 +329,7 @@
 			"Command"					"joinclass heavyweapons"
 			"Default"					"0"
 			"font"						"FontBold20"
-			"textinsetx"				"65"
+			"textinsetx"				"85"
 			"paintbackground"			"1"
 			
 			"defaultBgColor_override" 	"TransparentBlack"
@@ -391,7 +391,7 @@
 			"Command"					"joinclass engineer"
 			"Default"					"0"
 			"font"						"FontBold20"
-			"textinsetx"				"65"
+			"textinsetx"				"85"
 			"paintbackground"			"1"
 			
 			"defaultBgColor_override" 	"TransparentBlack"
@@ -475,7 +475,7 @@
 			"Command"					"joinclass medic"
 			"Default"					"0"
 			"font"						"FontBold20"
-			"textinsetx"				"65"
+			"textinsetx"				"85"
 			"paintbackground"			"1"
 			
 			"defaultBgColor_override" 	"TransparentBlack"
@@ -537,7 +537,7 @@
 			"Command"					"joinclass sniper"
 			"Default"					"0"
 			"font"						"FontBold20"
-			"textinsetx"				"65"
+			"textinsetx"				"85"
 			"paintbackground"			"1"
 			
 			"defaultBgColor_override" 	"TransparentBlack"
@@ -599,7 +599,7 @@
 			"Command"					"joinclass spy"
 			"Default"					"0"
 			"font"						"FontBold20"
-			"textinsetx"				"65"
+			"textinsetx"				"85"
 			"paintbackground"			"1"
 			
 			"defaultBgColor_override" 	"TransparentBlack"
@@ -683,7 +683,7 @@
 			"Command"			"joinclass mercenary"
 			"Default"			"0"
 			"font"				"FontBold20"
-			"textinsetx"		"65"
+			"textinsetx"		"85"
 			"paintbackground"	"1"
 		
 			"defaultBgColor_override" 	"TransparentBlack"
@@ -745,7 +745,7 @@
 			"Command"					"joinclass civilian"
 			"Default"					"0"
 			"font"						"FontBold20"
-			"textinsetx"				"65"
+			"textinsetx"				"85"
 			"paintbackground"			"1"
 			
 			"defaultBgColor_override" 	"TransparentBlack"
@@ -807,7 +807,7 @@
 			"Command"					"joinclass random"
 			"Default"					"0"
 			"font"						"FontBold20"
-			"textinsetx"				"65"
+			"textinsetx"				"85"
 			"paintbackground"			"1"
 			
 			"defaultBgColor_override" 	"TransparentBlack"

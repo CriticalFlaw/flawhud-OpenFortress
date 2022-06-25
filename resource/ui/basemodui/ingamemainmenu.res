@@ -360,7 +360,7 @@
 		"ControlName"			"Label"
 		"fieldName"				"VersionLabel"
 		"font"					"FontRegular12"
-		"labelText"				"FlawHUD v2022.0401"
+		"labelText"				"FlawHUD v2022.0625"
 		"xpos"					"rs1.05"
 		"ypos"					"r30"
 		"wide"					"130"
