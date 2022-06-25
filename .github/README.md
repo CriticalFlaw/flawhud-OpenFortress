@@ -49,13 +49,7 @@ To enable the Code Pro fonts, open `flawhud-OpenFortress\resource\clientscheme.r
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-* **HUD Development Help**: N0kk and Wiethoofd
-* **Playtesting**: Yotts, Cat, SleepingBear and Strife
-* **Main Menu Backgrounds**: sevin
 * **Crosshairs and Icons**: Hypnootize
-* **CastingEssentials**: pazer and dalegaard
-* **Competitive Closed Captions**: clovervidia
-* **Soldier Tribute Image**: uberchain
 
 <!-- SPONSORS -->
 ### Sponsors
