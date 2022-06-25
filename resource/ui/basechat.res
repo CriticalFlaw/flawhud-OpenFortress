@@ -7,14 +7,14 @@
 		"visible" 				"1"
 		"enabled" 				"1"
 		"xpos"					"5"
-		"ypos"					"25"
+		"ypos"					"15"
 		"wide"					"210"
 		"tall"					"100"
 		"PaintBackgroundType"		"0"
 		"bgcolor_override"			"0 0 0 255"
 	}
 
-	ChatInputLine
+	"ChatInputLine"
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"ChatInputLine"
@@ -32,9 +32,9 @@
 		"ControlName"			"Button"
 		"fieldName"				"ChatFiltersButton"
 		"xpos"					"173"
-		"ypos"					"86"
+		"ypos"					"83"
 		"wide"					"33"
-		"tall"					"8"
+		"tall"					"10"
 		"autoResize"			"1"
 		"pinCorner"				"0"
 		"visible"				"1"

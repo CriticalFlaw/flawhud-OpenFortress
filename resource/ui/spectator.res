@@ -2,31 +2,29 @@
 {
 	"SpectatorGUI"
 	{
-		"ControlName"	"Frame"
+		"ControlName"		"Frame"
 		"fieldName"		"SpectatorGUI"
 		"tall"			"480"
-		"autoResize"	"0"
+		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
+		"tabPosition"		"0"
 	}
-
 	"topbar"
 	{
-		"ControlName"	"Panel"
+		"ControlName"		"Panel"
 		"fieldName"		"TopBar"
 		"xpos"			"0"
 		"ypos"			"0"
 		"tall"			"0"
 		"wide"			"f0"
-		"autoResize"	"0"
+		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"tabPosition"	"0"
+		"tabPosition"		"0"
 	}
-
 	"BottomBar"
 	{
 		"ControlName"	"Frame"
@@ -38,10 +36,9 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-
 	"bottombarblank"
 	{
-		"ControlName"	"Panel"
+		"ControlName"		"Panel"
 		"fieldName"		"bottombarblank"
 		"xpos"			"0"
 		"ypos"			"r0"
@@ -51,78 +48,91 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"tabPosition"	"0"
+		"tabPosition"		"0"
 	}
-
 	"ReinforcementsLabel"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
-		"xpos"			"c-300"
+		"xpos"			"0"
 		"ypos"			"50"
-		"wide"			"600"
+		"wide"			"f0"
 		"tall"			"18"
-		"autoResize"	"0"
+		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
-		"textAlignment"	"center"
+		"textAlignment"		"center"
 		"font"			"FontRegular15"
 	}
-
 	"MapLabel"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"MapLabel"
 		"xpos"			"9999"
 	}
 	"ClassOrTeamLabel"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"ClassOrTeamLabel"
 		"xpos"			"9999"
 	}
 	"SwitchCamModeKeyLabel"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"SwitchCamModeKeyLabel"
 		"xpos"			"9999"
+
 	}
 	"SwitchCamModeLabel"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"SwitchCamModeLabel"
 		"xpos"			"9999"
 	}
 	"CycleTargetFwdKeyLabel"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetFwdKeyLabel"
 		"xpos"			"9999"
 	}
 	"CycleTargetFwdLabel"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetFwdLabel"
 		"xpos"			"9999"
 	}
 	"CycleTargetRevKeyLabel"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetRevKeyLabel"
 		"xpos"			"9999"
 	}
 	"CycleTargetRevLabel"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetRevLabel"
 		"xpos"			"9999"
 	}
 	"TipLabel"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"TipLabel"
 		"xpos"			"9999"
+	}
+
+	"spectator_extras"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"spectator_extras"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 	}
 }

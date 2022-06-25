@@ -56,11 +56,11 @@
 			"tall"			"36"
 			"visible"		"1"
 			"enabled"		"1"
-			"HealthBonusPosAdj"			"9"
-			"HealthDeathWarning"		"0.49"
-			"TFFont"					"HudFontSmall"
+			"HealthBonusPosAdj"	"9"
+			"HealthDeathWarning"	"0.49"
+			"TFFont"		"HudFontSmall"
 			"HealthDeathWarningColor"	"HUDDeathWarning"
-			"TextColor"					"HudOffWhite"
+			"TextColor"		"HudOffWhite"
 		}
 
 		"FreezeLabelKiller"
@@ -85,7 +85,7 @@
 
 		"AvatarImage"
 		{
-			"ControlName"	"CAvatarImagePanel"
+			"ControlName"		"CAvatarImagePanel"
 			"fieldName"		"AvatarImage"
 			"xpos"			"32"
 			"ypos"			"9"
@@ -101,7 +101,7 @@
 
 		"NemesisSubPanel"
 		{
-			"ControlName"	"EditablePanel"
+			"ControlName"		"EditablePanel"
 			"fieldName"		"NemesisSubPanel"
 			"wide"			"0"
 			"tall"			"0"

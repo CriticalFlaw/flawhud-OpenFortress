@@ -4,6 +4,7 @@
 {
 	"scores"
 	{
+		"tall"				"450"
         "spacer"			"5"
 		"tabPosition"		"30"
 		"avatar_width"		"60"
@@ -21,36 +22,39 @@
 	}
 	"DMBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"			"DMBG"
 		"xpos"				"c-225"
-		"ypos"				"0"
+		"ypos"				"105"
+		"zpos"				"1"
 		"wide"				"450"
-		"tall"				"50"
+		"tall"				"20"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"../hud/score_panel_purple_bg"
-		"scaleImage"		"1"
-		"PaintBackgroundType"	"1"
+		"pinCorner"			"0"
+		"autoResize"		"0"
+		"PaintBackgroundType"	"2"
+		"paintbackground"		"1"
+		"bgcolor_override"		"137 69 99 255"
 	}
 	"MainBG"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"MainBG"
 		"xpos"				"0"
-		"ypos"				"288"
+		"ypos"				"2"
 		"zpos"				"0"
 		"wide"				"450"
 		"tall"				"300"
 		"visible"			"1"
 		"enabled"			"1"
-		"bgcolor_override"	"HudBlack"
+		"bgcolor_override"	"25 25 25 200"
 		"PaintBackgroundType"	"2"
 
 		"pin_to_sibling"		"DMBG"
-		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 	}
 
@@ -62,18 +66,18 @@
 		"labelText"			"%mercenaryteamplayercount%"
 		"textAlignment"		"west"
 		"xpos"				"-5"
-		"ypos"				"0"
+		"ypos"				"-2"
 		"zpos"				"2"
 		"wide"				"290"
-		"tall"				"11"
+		"tall"				"10"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 
-		"pin_to_sibling"		"DMBG"
-		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+		"pin_to_sibling"		"MainBG"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 
 	"ServerLabel"
@@ -84,18 +88,17 @@
 		"labelText"			"%server%"
 		"textAlignment"		"east"
 		"xpos"				"-5"
-		"ypos"				"0"
+		"ypos"				"-2"
 		"zpos"				"2"
 		"wide"				"290"
-		"tall"				"11"
+		"tall"				"10"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
-		"enabled"			"1"
 
-		"pin_to_sibling"		"DMBG"
-		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
-		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
+		"pin_to_sibling"		"MainBG"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 	"HudFragLimitLabel"
 	{
@@ -108,7 +111,7 @@
 		"ypos"				"0"
 		"zpos"				"5"
 		"wide"				"450"
-		"tall"				"55"
+		"tall"				"20"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -116,8 +119,8 @@
 		"labelText"			"%FragLimit%"
 
 		"pin_to_sibling"		"DMBG"
-		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 	"HudFragLimitLabelShadow"
 	{
@@ -130,11 +133,11 @@
 		"ypos"				"-2"
 		"zpos"				"4"
 		"wide"				"450"
-		"tall"				"55"
+		"tall"				"20"
 		"autoResize"		"0"
 		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
+		"visible"			"0"
+		"enabled"			"0"
 		"labelText"			"%FragLimit%"
 
 		"pin_to_sibling"		"HudKillsLabel"
@@ -174,15 +177,13 @@
 	}
 	"Spectators"
 	{
-		"xpos"				"184"
-		"ypos"				"403"
-		"wide"				"423"
+		"xpos"				"210"
+		"ypos"				"405"
 	}
 
 	"ShadedBar"
 	{
 		"ypos"				"63"
-		"bgcolor_override"	"HudBlack"
 	}
 	"PlayerNameLabel"
 	{
@@ -226,47 +227,19 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-
-	//frags
+	
+	"ShadedBar"
+	{
+		"visible"		"0"
+		"enabled"		"0"
+	}
+	
 	"Label01"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"Label01"
-		"font"				"FontBold14"
-		"labelText"			"Frags"
-		"textAlignment"		"center"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"3"
-		"wide"				"95"
-		"tall"				"20"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"0"
-		"enabled"			"0"
-
-		"pin_to_sibling"		"ShadedBar"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+		"wide"			"0"
 	}
 	"Count01"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"Count01"
-		"font"				"ScoreboardVerySmall"
-		"textAlignment"		"west"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"3"
-		"wide"				"95"
-		"tall"				"20"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"0"
-		"enabled"			"0"
-
-		"pin_to_sibling"		"Label01"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+		"wide"			"0"
 	}
 }

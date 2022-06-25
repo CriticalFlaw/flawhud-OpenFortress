@@ -18,7 +18,6 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"fgcolor_override"	"NeonRed"
 	}
 
 	"ItemBackground"
@@ -97,7 +96,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"NumberLabel"
-		"font"				"FontRegular11"
+		"font"				"FontBold10"
 		"fgcolor"			"White"
 		"xpos"				"-28"
 		"ypos"				"-5"

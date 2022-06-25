@@ -89,8 +89,8 @@
 		"tall"				"11"
 		"autoResize"		"0"
 		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
+		"visible"			"0"
+		"enabled"			"0"
 		"labelText"			"#Hud_Menu_Spy_Minus_Toggle"
 		"textAlignment"		"center"
 		"dulltext"			"0"
@@ -459,7 +459,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"class_item_red_10"
-		"xpos"				"133"
+		"xpos"				"65"
 		"ypos"				"67"
 		"zpos"				"2"
 		"wide"				"75"
@@ -471,7 +471,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"class_item_blue_10"
-		"xpos"				"133"
+		"xpos"				"65"
 		"ypos"				"67"
 		"zpos"				"2"
 		"wide"				"75"
@@ -483,7 +483,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"class_item_mercenary_10"
-		"xpos"				"133"
+		"xpos"				"65"
 		"ypos"				"67"
 		"zpos"				"2"
 		"wide"				"75"
@@ -495,7 +495,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"class_item_red_11"
-		"xpos"				"133"
+		"xpos"				"65"
 		"ypos"				"67"
 		"zpos"				"2"
 		"wide"				"75"
@@ -507,7 +507,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"class_item_blue_11"
-		"xpos"				"133"
+		"xpos"				"65"
 		"ypos"				"67"
 		"zpos"				"2"
 		"wide"				"75"
@@ -519,7 +519,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"class_item_mercenary_11"
-		"xpos"				"133"
+		"xpos"				"65"
 		"ypos"				"67"
 		"zpos"				"2"
 		"wide"				"75"

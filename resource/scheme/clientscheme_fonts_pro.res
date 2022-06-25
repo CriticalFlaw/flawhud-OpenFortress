@@ -475,9 +475,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Trebuchet MS" [!$OSX]
-				"name"			"Helvetica" [$OSX]
-				"tall"			"18"
+				"name"			"Code-Pro-Bold"
+				"tall"			"14"
 				"weight"		"900"
 				"antialias"		"1"
 				"additive"		"1"
@@ -501,10 +500,9 @@ Scheme
 			"1"
 			{
 				"name"			"Verdana"
-				"tall"			"10"
-				"weight"		"0"
-				"additive"		"0"
-				"antialias"		"1"
+				"tall"			"12"
+				"weight"		"700"
+				"yres"			"480 599"
 			}
 			"2"
 			{
@@ -824,7 +822,7 @@ Scheme
 			"1"
 			{
 				"name"			"Code-Pro-LC"
-				"tall"			"9"
+				"tall"			"12"
 				"weight"		"0"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -952,7 +950,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2"
+				"name"			"Code-Pro-Bold"
 				"tall"			"16"
 				"weight"		"500"
 				"additive"		"0"
@@ -1131,7 +1129,7 @@ Scheme
 			"1"
 			{
 				"name"			"Code-Pro-LC"
-				"tall"			"20"
+				"tall"			"18"
 				"antialias" 	"1"
 				"weight"		"500"
 				"range"			"0x0000 0x017F"
@@ -1142,7 +1140,7 @@ Scheme
 			"1"
 			{
 				"name"			"Code-Pro-LC"
-				"tall"			"20"
+				"tall"			"18"
 				"antialias" 	"1"
 				"weight"		"500"
 				"italic"		"1"
@@ -1154,7 +1152,7 @@ Scheme
 			"1"
 			{
 				"name"			"Code-Pro-LC"
-				"tall"			"20"
+				"tall"			"18"
 				"antialias" 	"1"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
@@ -1165,7 +1163,7 @@ Scheme
 			"1"
 			{
 				"name"			"Code-Pro-LC"
-				"tall"			"20"
+				"tall"			"18"
 				"antialias" 	"1"
 				"weight"		"900"
 				"italic"		"1"
